@@ -1,0 +1,38 @@
+@use "colors" as *;
+@use "typography" as *;
+@use "sizes" as *;
+
+$space-top: 2.2rem;
+$space-bottom: 0rem;
+$active-theme: $light;
+$enable-media-query-dark-mode: false;
+
+// Contextual
+$color-text-default: $color-primary-700;
+$color-background-default: $color-primary-100;
+$color-text-interactive-default: $color-accent-400;
+$color-text-interactive-hover: $color-accent-500;
+
+$letter-spacing: normal;
+$letter-spacing-loose: 0.16em;
+
+$border-radius-1: $size-2;
+$border-radius-2: $size-4;
+
+// body
+$body-font-family: $font-family-base;
+$body-font-size: $font-size-400;
+$body-line-height: 1.5;
+$body-font-weight: $font-weight-default;
+$body-text-color: $color-text-default;
+$body-background-color: $color-background-default;
+
+$link-color: $color-text-interactive-default;
+$link-color-hover: $color-text-interactive-hover;
+
+$heading-font-family: $font-family-accent;
+$heading-color-default: $body-text-color;
+$heading-font-weight: $font-weight-bold;
+$heading-letter-spacing: $letter-spacing-loose;
+$heading-line-height: 1;
+$heading-text-transform: uppercase;
