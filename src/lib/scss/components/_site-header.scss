@@ -8,6 +8,10 @@
         gap: $site-header-gap;
         align-items: $site-header-alignment;
         justify-content: $site-header-jusitifcation-small-screens;
+       
+        & a {
+            text-decoration: none;
+        }
         
         @include mq(medium) {
           justify-content: $site-header-jusitifcation-large-screens;

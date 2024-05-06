@@ -6,7 +6,7 @@
     let alt1 = "svelte favicon";
 </script>
 
-<footer>
+<footer class="site-footer">
     <IconLink link={link1} src={src1} alt={alt1}/>
     <IconLink link={link2} src={src1} alt={alt1}/>
 </footer>

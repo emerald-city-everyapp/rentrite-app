@@ -39,16 +39,17 @@ $heading-text-transform: uppercase;
 
 //COMPONENTS
 // header
-$site-header-color: null;
-$site-header-background-color: null;
-$site-header-gap: null;
-$site-header-alignment: null;
-$site-header-jusitifcation-small-screens: null;
+$site-header-color: #191652;
+$site-header-background-color: #eee0d4;
+$site-header-gap: $size-8;
+$site-header-alignment: $size-8;
+$site-header-jusitifcation-small-screens: space-evenly;
+$site-header-jusitifcation-large-screens: space-between;
 
 // footer
-$footer-background-color: null;
-$footer-text-color: null;
-$footer-link-color: null;
-$footer-link-color-hover: null;
-$footer-link-font-family: null;
-$footer-link-text-decoration: null;
+$footer-background-color: #eee0d4;
+$footer-text-color: #191652;
+$footer-link-color: #191652;
+$footer-link-color-hover: #2a3672;
+$footer-link-font-family: $body-font-family;
+$footer-link-text-decoration: none;
