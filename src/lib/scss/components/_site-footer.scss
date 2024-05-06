@@ -1,0 +1,13 @@
+.site-footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    a {
+        color: $footer-link-color;
+        text-decoration: $footer-link-text-decoration;
+        font-family: $footer-link-font-family;
+        
+        &:is(:hover, :focus) {
+            color: $footer-link-color-hover;
+        }
+    }
+}
