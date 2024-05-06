@@ -8,10 +8,10 @@ $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
 // Contextual
-$color-text-default: $color-primary-700;
-$color-background-default: $color-primary-100;
-$color-text-interactive-default: $color-accent-400;
-$color-text-interactive-hover: $color-accent-500;
+$color-text-default: #2e62a1;
+$color-background-default: #eee0d4;
+$color-text-interactive-default: #b42a21;
+$color-text-interactive-hover: #de6180;
 
 $letter-spacing: normal;
 $letter-spacing-loose: 0.16em;
@@ -36,11 +36,17 @@ $heading-font-weight: $font-weight-bold;
 $heading-letter-spacing: $letter-spacing-loose;
 $heading-line-height: 1;
 $heading-text-transform: uppercase;
+// layout
+$container-min-margin-inline: $size-4;
+$container-max-width: 60rem;
+$container-max-width-narrow: 40rem;
+$container-max-width-wide: 75rem;
 
+$section-padding-block: clamp(3rem, 10vh, 7rem);
 //COMPONENTS
 // header
 $site-header-color: #191652;
-$site-header-background-color: #eee0d4;
+$site-header-background-color: #ecc642;
 $site-header-gap: $size-8;
 $site-header-alignment: $size-8;
 $site-header-jusitifcation-small-screens: space-evenly;
@@ -53,3 +59,4 @@ $footer-link-color: #191652;
 $footer-link-color-hover: #2a3672;
 $footer-link-font-family: $body-font-family;
 $footer-link-text-decoration: none;
+$footer-icon-color: #e89036;

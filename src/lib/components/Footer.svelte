@@ -7,6 +7,8 @@
 </script>
 
 <footer class="site-footer">
-    <IconLink link={link1} src={src1} alt={alt1}/>
-    <IconLink link={link2} src={src1} alt={alt1}/>
+    <div class="container flow">
+        <IconLink link={link1} src={src1} alt={alt1}/>
+        <IconLink link={link2} src={src1} alt={alt1}/>
+    </div>
 </footer>
