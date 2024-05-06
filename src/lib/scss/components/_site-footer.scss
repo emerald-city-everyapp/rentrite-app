@@ -2,7 +2,9 @@
 
 .site-footer {
     background-color: $footer-background-color;
+    border-top: 4px solid #e89036;
     color: $footer-text-color;
+
     a {
         color: $footer-link-color;
         text-decoration: $footer-link-text-decoration;

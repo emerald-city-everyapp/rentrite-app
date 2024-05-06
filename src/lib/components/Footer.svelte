@@ -4,11 +4,12 @@
     let link2 = "https://github.com/maemayv";
     let src1 = "favicon.png";
     let alt1 = "svelte favicon";
+    let text1 = "my github";
 </script>
 
 <footer class="site-footer">
     <div class="container flow">
-        <IconLink link={link1} src={src1} alt={alt1}/>
+        <IconLink link={link1} src={src1} alt={alt1} text={text1}/>
         <IconLink link={link2} src={src1} alt={alt1}/>
     </div>
 </footer>
