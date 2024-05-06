@@ -37,10 +37,18 @@ $heading-letter-spacing: $letter-spacing-loose;
 $heading-line-height: 1;
 $heading-text-transform: uppercase;
 
+//COMPONENTS
+// header
+$site-header-color: null;
+$site-header-background-color: null;
+$site-header-gap: null;
+$site-header-alignment: null;
+$site-header-jusitifcation-small-screens: null;
+
 // footer
-$footer-link-color-hover: null;
 $footer-background-color: null;
 $footer-text-color: null;
 $footer-link-color: null;
-$footer-link-text-decoration: null;
+$footer-link-color-hover: null;
 $footer-link-font-family: null;
+$footer-link-text-decoration: null;
