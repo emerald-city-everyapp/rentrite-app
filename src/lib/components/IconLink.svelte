@@ -5,9 +5,16 @@
     export let alt = "a svelte favicon";
 </script>
 
-<div>
+<div class="icon-link-container">
     <a href={link} class="icon-link">
         {text}
         <img src={src} alt={alt} class="icon-link_svg">
     </a>
 </div>
+
+<style>
+    img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+</style>

@@ -9,7 +9,9 @@
 
 <footer class="site-footer">
     <div class="container flow">
-        <IconLink link={link1} src={src1} alt={alt1} text={text1}/>
-        <IconLink link={link2} src={src1} alt={alt1}/>
+        <div class="icon-link-container">
+            <IconLink link={link1} src={src1} alt={alt1} text={text1}/>
+            <IconLink link={link2} src={src1} alt={alt1}/>
+        </div>
     </div>
 </footer>

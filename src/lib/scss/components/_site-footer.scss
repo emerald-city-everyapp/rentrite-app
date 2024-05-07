@@ -15,3 +15,14 @@
         }
     }
 }
+
+.icon-link-container {
+    display:flex;
+    flex-direction: column;
+
+    @include mq(medium) {
+        display: flex;
+        gap: $footer-link-container-gap;
+        flex-direction: row;
+    }
+}
