@@ -1,0 +1,28 @@
+@use "../abstracts" as *;
+
+.site-footer {
+    background-color: $footer-background-color;
+    border-top: 4px solid #e89036;
+    color: $footer-text-color;
+
+    a {
+        color: $footer-link-color;
+        text-decoration: $footer-link-text-decoration;
+        font-family: $footer-link-font-family;
+
+        &:is(:hover, :focus) {
+            color: $footer-link-color-hover;
+        }
+    }
+}
+
+.icon-link-container {
+    display:flex;
+    flex-direction: column;
+
+    @include mq(medium) {
+        display: flex;
+        gap: $footer-link-container-gap;
+        flex-direction: row;
+    }
+}

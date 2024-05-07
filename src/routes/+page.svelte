@@ -1,6 +1,11 @@
 <script>
-    import "$lib/scss/main.scss";
+    import "$lib/main.scss";
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="container">
+    <div class="section center">
+    
+        <h2>Welcome to SvelteKit</h2>
+        <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+    </div>
+</div>
