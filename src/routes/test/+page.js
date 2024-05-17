@@ -1,13 +1,29 @@
-import { error } from "@sveltejs/kit";
-const apiKey = process.env.API_KEY;
-// be sure to rename file to `+page.server.js` if load function is meant to only run on the server, or to access private env variables like API keys,
-//then change PageLoad to ServerPageLoad (types)
+import { json } from "@sveltejs/kit";
 
-export async function load({ fetch }) {
-    const content = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
-    // const json = await fetch('https://rentrite-backend-53dxbcm3gq-uc.a.run.app/greeting')
-    console.log(content.json());
-    return content.json();
+export async function load({ fetch, setHeaders }) {
+    const url = "https://rentrite-backend-53dxbcm3gq-uc.a.run.app/greeting";
+    try {
+        const response = await fetch(url, {
+            method: "GET",
+            mode: "cors",
+            headers: {
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin" : `${url}`
+            }
+        });
+        console.log("response:\n", response);
+        return response;
+    } catch(err) {
+        console.log(err);
+    }
 }
 
-//reference: https://kit.svelte.dev/docs/types#public-types-loadevent
+// need to add HTTP Header:  "Access-Control-Allow-Origin: https://rentrite-backend-53dxbcm3gq-uc.a.run.app/greeting"
+//setHeaders has no effect when load function runs in the browser
+
+//const myHeaders = new Headers(); //currently empty Headers object
+//myHeaders.append("Access-Control-Allow-Origin", url);
+
+// const myHeaders = new Headers();
+// response.headers.append("Access-Control-Allow-Origin", `${url}`);
+// console.log("response headers: ", response.headers);
