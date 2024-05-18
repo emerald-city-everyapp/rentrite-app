@@ -2,8 +2,7 @@ import { json } from "@sveltejs/kit";
 import { error } from "@sveltejs/kit";
 
 export async function load({ fetch }) {
-    // const url = "https://localhost:8080/greeting";
-    const url = "https://rentrite-backend-dev-53dxbcm3gq-uc.a.run.app/greeting";
+    const url = "https://rentrite-backend-staging-53dxbcm3gq-uc.a.run.app/greeting";
     try {
         const response = await fetch(url, {
             method: "GET",
