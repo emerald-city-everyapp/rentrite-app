@@ -9,7 +9,7 @@
                 <a href="/">LOGO</a>
                 <h1>{siteTitle}</h1>
               </div>
-              <nav class="header-nav">
+              <nav class="nav">
                   <a href="/share">share</a>
                   <a href="/contact">contact</a>
                   <a href="/login">login</a>

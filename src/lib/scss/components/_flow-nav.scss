@@ -1,0 +1,33 @@
+@use "../abstracts" as *;
+
+.flow-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 50vw;
+  
+    &__link {
+      padding: 0;
+    }
+  
+    a {
+      background-color: $flow-navlink-background-color;
+      border: $flow-navlink-border;
+      color: $flow-navlink-color;
+      display: inline-block;
+      padding: .5rem;
+      text-decoration: $navigation-link-text-decoration;
+  
+      &:is(:hover, :focus) {
+        background-color: $flow-navlink-background-color-hover;
+        border: $flow-navlink-border-hover;
+        color: $flow-navlink-color-hover;
+      }
+  
+      &:is(:active) {
+        background-color: $flow-navlink-background-color-active;
+        border: $flow-navlink-border-active;
+        color: $flow-navlink-color-active
+      }
+    }
+  }
