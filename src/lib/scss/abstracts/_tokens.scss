@@ -61,7 +61,14 @@ $footer-link-font-family: $body-font-family;
 $footer-link-text-decoration: none;
 $footer-icon-color: #e89036;
 $footer-link-container-gap: $size-8;
-
+// navigation
+$navigation-color: $site-header-color;
+$navigation-color-hover: $color-neutral-000;
+$navigation-font-size: $font-size-400;
+$navigation-gap: $size-9;
+$navigation-link-text-decoration: none;
+$navigation-font-family: $body-font-family;
+$navigation-font-weight: $body-font-weight;
 // logo
 $logo-fill-default: $color-accent-600;
 $logo-fill-header: $logo-fill-default;
