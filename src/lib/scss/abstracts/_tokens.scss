@@ -51,7 +51,7 @@ $site-header-gap: $size-8;
 $site-header-alignment: $size-8;
 $site-header-jusitifcation-small-screens: space-evenly;
 $site-header-jusitifcation-large-screens: space-between;
-
+$site-header-padding: $size-8 0;
 // footer
 $footer-background-color: #eee0d4;
 $footer-text-color: #191652;
@@ -61,3 +61,11 @@ $footer-link-font-family: $body-font-family;
 $footer-link-text-decoration: none;
 $footer-icon-color: #e89036;
 $footer-link-container-gap: $size-8;
+
+// logo
+$logo-fill-default: $color-accent-600;
+$logo-fill-header: $logo-fill-default;
+$logo-fill-footer: $logo-fill-default;
+$logo-size-default: 42px;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: $logo-size-default;

@@ -3,6 +3,7 @@
 .site-header {
     color: $site-header-color;
     background-color: $site-header-background-color;
+    padding: $site-header-padding;
     &__inner {
         display: flex;
         gap: $site-header-gap;
