@@ -1,0 +1,6 @@
+@use "../abstracts" as *;
+
+.inner-layout {
+    color: $inner-layout-color;
+    background-color: $inner-layout-bg-color;
+}

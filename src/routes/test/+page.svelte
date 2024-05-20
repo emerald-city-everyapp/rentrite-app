@@ -5,9 +5,9 @@
 </script>
 
 <div class="container flow">
-    <h2>my test route page</h2>
+    <h3>My Test Route Page</h3>
     
-    <h3>{data.id}</h3>
+    <h3>test number {data.id}</h3>
     <!-- <img src={data.url} alt={data.title} /> -->
     <p>{data.message}</p>
 </div>

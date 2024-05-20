@@ -1,3 +1,8 @@
 .flex-fill {
     flex: 1;
 }
+
+.flex-fill-parent {
+    display: flex;
+    flex-direction: column;
+}

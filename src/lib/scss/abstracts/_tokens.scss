@@ -43,6 +43,9 @@ $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
 $section-padding-block: clamp(3rem, 10vh, 7rem);
+
+$inner-layout-bg-color: $color-primary-300;
+$inner-layout-color: $color-primary-900;
 //COMPONENTS
 // header
 $site-header-color: #191652;

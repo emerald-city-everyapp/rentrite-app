@@ -6,7 +6,7 @@
 
 <div class="body-layout">
     <Header/>
-    <main class="flex-fill">
+    <main class="flex-fill flex-fill-parent">
         <slot/>
     </main>
     <Footer/>
