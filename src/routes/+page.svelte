@@ -5,8 +5,8 @@
 
     const navLinkList = [
         {
-            href: "/about",
-            text: "about"
+            href: "/rental-profile",
+            text: "rental profile"
         },
         {
             href: "/contact",
