@@ -1,2 +1,20 @@
-//header mixin
-//image utility classes
+@use "../abstracts" as *;
+
+.temp-rent-prof {
+    border: 1px solid midnightblue;
+    border-radius: .2rem;
+ }
+.temp-img {
+    max-width:100%;
+}
+
+.temp-left {
+    
+}
+
+.temp-right {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: $flex-group-gap;
+}

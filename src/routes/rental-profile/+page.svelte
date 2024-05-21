@@ -3,6 +3,6 @@
 </script>
 
 
-<div>
+<div class="padding-8">
     <RentalProfile />
 </div>

@@ -10,13 +10,20 @@
     //I don't think "address" should be the heading? But what's a unique title?
 </script>
 
-<div>
-    <h3>{address}</h3>
-    <p>{descriptor}</p>
-    <div class="flex-group">
-        {#each icons as icon}
-            <p>{icon}</p>
-        {/each}
+<div class="temp-rent-prof padding-8 bg-primary-800">
+    <h2 class="heading-1">Test Rental Profile</h2>
+    <div class="even-columns">
+        <div>
+            <img class="temp-img" src={pictureSrc} alt={pictureAlt} />
+        </div>
+        <div class="temp-right">
+            <h3 class="heading-3">{address}</h3>
+            <p>{descriptor}</p>
+            <div class="flex-group">
+                {#each icons as icon}
+                    <p>{icon}</p>
+                {/each}
+            </div>
+        </div>
     </div>
-    <img src={pictureSrc} alt={pictureAlt} />
 </div>
