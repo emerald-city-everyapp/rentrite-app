@@ -46,6 +46,8 @@ $section-padding-block: clamp(3rem, 10vh, 7rem);
 
 $inner-layout-bg-color: $color-primary-300;
 $inner-layout-color: $color-primary-900;
+
+$flex-group-gap: $size-4;
 //COMPONENTS
 // header
 $site-header-color: #191652;
@@ -91,3 +93,11 @@ $logo-fill-footer: $logo-fill-default;
 $logo-size-default: 42px;
 $logo-size-header: $logo-size-default;
 $logo-size-footer: $logo-size-default;
+//UTILITY
+// headings
+$heading-color-default: $color-primary-600;
+$heading-font-family: $font-family-accent;
+$heading-text-transform: uppercase;
+$heading-letter-spacing: none;
+$heading-font-weight: $font-weight-bold;
+$heading-line-height: 1.2;
