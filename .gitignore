@@ -10,4 +10,7 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 /z_my_docs
-
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
