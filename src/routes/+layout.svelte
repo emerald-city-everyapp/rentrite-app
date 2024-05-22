@@ -4,6 +4,10 @@
     import Footer from "$lib/components/Footer.svelte";
 </script>
 
+<svelte:head>
+    <title>Rentrite</title>
+</svelte:head>
+
 <div class="body-layout">
     <Header/>
     <main class="flex-fill flex-fill-parent">
