@@ -9,7 +9,7 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"test": "jasmine",
+		"test": "jasmine && jasmine-browser-runner runSpecs",
 		"lint": "eslint ."
 	},
 	"devDependencies": {
@@ -22,6 +22,8 @@
 		"eslint": "^8.56.0",
 		"eslint-plugin-svelte": "^2.35.1",
 		"jasmine": "^5.1.0",
+		"jasmine-browser-runner": "^2.4.0",
+		"jasmine-core": "^5.1.2",
 		"postcss": "^8.4.38",
 		"postcss-load-config": "^5.1.0",
 		"sass": "^1.76.0",
