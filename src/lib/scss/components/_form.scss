@@ -1,6 +1,26 @@
-@use "../abstracts/" as *;
+@use "../abstracts" as *;
 
 
 .new-rental-form {
     border: 1px solid red;
+    display: grid;
+    gap: $grid-gap;
+
+    @include mq(medium) {
+        background-color: aliceblue;
+    }
+
+    @include mq(large) {
+        background-color: lemonchiffon;
+    }
 }
+
+.input-cell{
+    border: 1px solid blue;
+}
+
+::placeholder {
+    color: $form-placeholder-color;
+    font-weight: $form-placeholder-font-weight;
+    font-family: $form-placeholder-font-family;
+  }

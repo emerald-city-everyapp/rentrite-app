@@ -94,6 +94,13 @@ $logo-fill-footer: $logo-fill-default;
 $logo-size-default: 42px;
 $logo-size-header: $logo-size-default;
 $logo-size-footer: $logo-size-default;
+// forms
+
+//-->placeholder text
+$form-placeholder-color: $color-text-interactive-default;
+$form-placeholder-font-weight: $font-weight-bold;
+$form-placeholder-font-family: $body-font-family;
+
 //UTILITY
 // headings
 $heading-color-default: $color-primary-600;
