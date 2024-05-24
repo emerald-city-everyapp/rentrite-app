@@ -6,10 +6,11 @@
     let value4 = "input 4";
     let value5 = "input 5";
     let value6 = "input 6";
+    let value7 = "leave a comment";
     let isDisabled = true;
 </script>
 
-<div>
+
     <form class="new-rental-form" method="post" action="" use:enhance>
         <div class="input-cell">
             <label for="textbox">text1</label>
@@ -35,8 +36,11 @@
             <label for="textbox6">text6</label>
             <input type="text" name="textbox6" id="textInput6" placeholder={value6}>
         </div>
+        <div class="textarea-cell">
+            <label for="textarea1">textarea1</label>
+            <textarea name="textarea1" id="myTextArea1" placeholder={value7}></textarea>
+        </div>
         <div class="button-cell">
             <button type="submit" disabled={isDisabled}>submit</button>
         </div>
     </form>
-</div>

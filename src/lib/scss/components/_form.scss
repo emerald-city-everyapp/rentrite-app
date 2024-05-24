@@ -5,6 +5,7 @@
     border: 1px solid red;
     display: grid;
     gap: $grid-gap;
+    padding: $size-4;
 
     @include mq(medium) {
         background-color: aliceblue;
