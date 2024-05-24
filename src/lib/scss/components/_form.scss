@@ -9,17 +9,24 @@
 
     @include mq(medium) {
         background-color: aliceblue;
+        grid-template-columns: 1fr 1fr;
     }
 
     @include mq(large) {
         background-color: lemonchiffon;
     }
 }
-
+.button-cell,
+.textarea-cell,
 .input-cell{
     border: 1px solid blue;
+    display: grid;
+    gap: $size-4;
 }
 
+.textarea-cell {
+    grid-column: 1 / -1;
+}
 ::placeholder {
     color: $form-placeholder-color;
     font-weight: $form-placeholder-font-weight;
