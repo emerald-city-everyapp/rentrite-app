@@ -2,13 +2,31 @@
 
 
 .new-rental-form {
-    border: 1px solid red;
+    background-color: #e9f0fc;
+    border: 1px solid $color-primary-600;
+    border-radius: .2rem;
+    color: $color-primary-800;
     display: grid;
-    gap: $grid-gap;
+    gap: .5rem;
     padding: $size-4;
 
+    & label,
+    .button-cell {
+        padding-inline: 1rem;
+    }
+
+    & input,
+    textarea {
+        background-color: #d6e2f7;
+        border-top: 1px solid #3e63c1;
+        border-left: 1px solid  #3e63c1;
+        border-right: 2px solid  #3e63c1;
+        border-bottom: 2px solid  #3e63c1;
+        border-radius: .2rem;
+        padding:.5rem;
+        margin-inline: 1rem;
+    }
     @include mq(medium) {
-        background-color: aliceblue;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -16,19 +34,22 @@
         background-color: lemonchiffon;
     }
 }
+
+textarea {
+    resize: none;
+}
 .button-cell,
 .textarea-cell,
 .input-cell{
-    border: 1px solid blue;
     display: grid;
-    gap: $size-4;
+    gap: .5rem;
 }
 
 .textarea-cell {
     grid-column: 1 / -1;
 }
 ::placeholder {
-    color: $form-placeholder-color;
+    color: #3b557d;
     font-weight: $form-placeholder-font-weight;
     font-family: $form-placeholder-font-family;
   }
