@@ -11,7 +11,7 @@
 </script>
 
 
-    <form class="new-rental-form" method="post" action="" use:enhance>
+    <form class="new-rental-form" method="POST" action="/new" use:enhance>
         <div class="input-cell">
             <label for="textbox">text1</label>
             <input type="text1" name="textbox1" id="textInput1" placeholder={value1}>

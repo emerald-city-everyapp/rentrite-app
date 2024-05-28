@@ -1,5 +1,6 @@
 <script>
     import NewRentalForm from "$lib/components/NewRentalForm.svelte";
+    export let form;
 </script>
 
 <div class="container">

@@ -14,4 +14,6 @@
             <IconLink link={link2} src={src1} alt={alt1}/>
         </div>
     </div>
+    <div class="empty-footer">
+    </div>
 </footer>

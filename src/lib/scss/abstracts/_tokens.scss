@@ -8,10 +8,10 @@ $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
 // Contextual
-$color-text-default: #2e62a1;
-$color-background-default: #eee0d4;
-$color-text-interactive-default: #b42a21;
-$color-text-interactive-hover: #de6180;
+$color-text-default: #1e1e1e;
+$color-background-default: #e3e3e3;
+$color-text-interactive-default: #575757;
+$color-text-interactive-hover: white;
 
 $letter-spacing: normal;
 $letter-spacing-loose: 0.16em;
@@ -51,25 +51,25 @@ $flex-group-gap: $size-4;
 $grid-gap: $size-8;
 //COMPONENTS
 // header
-$site-header-color: #191652;
-$site-header-background-color: #ecc642;
+$site-header-color: #575757;
+$site-header-background-color: #c6c6c6;
 $site-header-gap: $size-8;
 $site-header-alignment: $size-8;
 $site-header-jusitifcation-small-screens: space-evenly;
 $site-header-jusitifcation-large-screens: space-between;
 $site-header-padding: $size-8 0;
 // footer
-$footer-background-color: #eee0d4;
-$footer-text-color: #191652;
-$footer-link-color: #191652;
-$footer-link-color-hover: #2a3672;
+$footer-background-color: #c6c6c6;
+$footer-text-color: #1e1e1e;
+$footer-link-color: #1e1e1e;
+$footer-link-color-hover: #575757;
 $footer-link-font-family: $body-font-family;
 $footer-link-text-decoration: none;
-$footer-icon-color: #e89036;
+$footer-icon-color: white;
 $footer-link-container-gap: $size-8;
 // navigation
 $navigation-color: $site-header-color;
-$navigation-color-hover: $color-neutral-000;
+$navigation-color-hover: white;
 $navigation-font-size: $font-size-400;
 $navigation-gap: $size-9;
 $navigation-link-text-decoration: none;
@@ -77,8 +77,8 @@ $navigation-font-family: $body-font-family;
 $navigation-font-weight: $body-font-weight;
 
 $flow-navlink-color: $body-text-color;
-$flow-navlink-border: 1px solid $color-primary-200;
-$flow-navlink-background-color: $color-primary-600;
+$flow-navlink-border: 1px solid #a2a2a2;
+$flow-navlink-background-color: #575757;
 
 $flow-navlink-color-hover: $color-primary-700;
 $flow-navlink-border-hover: 1px solid $color-primary-100;
@@ -88,7 +88,7 @@ $flow-navlink-color-active: $color-accent-100;
 $flow-navlink-border-active: 1px solid $color-neutral-000;
 $flow-navlink-background-color-active: $color-primary-600;
 // logo
-$logo-fill-default: $color-accent-600;
+$logo-fill-default: white;
 $logo-fill-header: $logo-fill-default;
 $logo-fill-footer: $logo-fill-default;
 $logo-size-default: 42px;
