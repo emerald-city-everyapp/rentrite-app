@@ -9,8 +9,8 @@
             text: "rental profile"
         },
         {
-            href: "/contact",
-            text: "contact"
+            href: "/create",
+            text: "create"
         },
         {
             href: "/login",

@@ -1,6 +1,6 @@
 <script>
     import { enhance } from "$app/forms";
-    let value1 = "input 1";
+    let address = "input 1";
     let value2 = "input 2";
     let value3 = "input 3";
     let value4 = "input 4";
@@ -13,8 +13,8 @@
 
     <form class="new-rental-form" method="POST" action="/new" use:enhance>
         <div class="input-cell">
-            <label for="textbox">text1</label>
-            <input type="text1" name="textbox1" id="textInput1" placeholder={value1}>
+            <label for="textbox">address</label>
+            <input type="text1" name="textbox1" id="textInput1" placeholder={address}>
         </div>
         <div class="input-cell">
             <label for="textbox">text2</label>
