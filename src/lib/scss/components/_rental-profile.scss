@@ -1,8 +1,10 @@
 @use "../abstracts" as *;
 
 .temp-rent-prof {
-    border: 1px solid midnightblue;
+    background-color: #232323;
+    border: 1px solid #232323;
     border-radius: .2rem;
+    color: #838383;
  }
 .temp-img {
     max-width:100%;
