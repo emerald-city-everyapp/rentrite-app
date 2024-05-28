@@ -1,14 +1,17 @@
 import { fail } from '@sveltejs/kit';
-
+import { baseUrl } from '$lib';
+export async function load() {
+    const url = `${baseUrl}create`;
+    console.log("url: ", url);
+}
 export const actions = {
-    create: async (event) => {
-        if(!email) {
-            return fail(400, {email, missing: true}); //but another field, not "email"
-        }
+    default: async ({request}) => {
+        // if(!address) {
+        //     return fail(400, {address, missing: true}); //but another field, not "email"
+        // }
+        const data = await request.formData();
+        console.log("data: ", data)
         //create new entry - new rental profile
-        //change named action to "default" if there's only one
     },
-    display: async (event) => {
-        //not sure if we need this, is it better to display what's returned after the POST or to display what the user input?
-    }
+
 }

@@ -1,12 +1,13 @@
 import { json } from "@sveltejs/kit";
 import { error } from "@sveltejs/kit";
+import { baseUrl } from "$lib/utils.js";
 
 export async function load({ fetch }) {
-    const url = "https://rentrite-backend-staging-53dxbcm3gq-uc.a.run.app/rentalprofile";
+    const url = `${baseUrl}rentalprofile`;
     try {
         const response = await fetch(url, {
             method: "GET",
-            mode: "no-cors",
+            mode: "cors",
             credentials: "same-origin",
             headers: {
                 "Content-Type" : "application/json"
