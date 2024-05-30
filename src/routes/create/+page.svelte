@@ -14,25 +14,31 @@
     {#if form?.error}
         <p class="error">{form.error}</p>
     {/if}
-    <form class="new-rental-form" method="POST" action="/create" use:enhance>
+    <form class="new-rental-form" method="POST" use:enhance>
+        {#if form?.missing}
+            <p>The address field is required</p>
+        {/if}
         <div class="input-cell">
-            <label for="textbox1">address</label>
-            <input type="text1" name="textbox1" id="textInput1" placeholder={address}>
+            <label for="address">address</label>
+            <input type="text1" name="address" id="textInput1" placeholder={address} value="{form?.address ?? ''}">
         </div>
         <div class="input-cell">
-            <label for="textbox2">tags</label>
-            <input type="text2" name="textbox2" id="textInput2" placeholder={tags}>
+            <label for="tags">tags</label>
+            <input type="text2" name="tags" id="textInput2" placeholder={tags}>
         </div>
         <div class="input-cell">
-            <label for="textbox">picNames</label>
-            <input type="text3" name="textbox3" id="textInput3" placeholder={picNames}>
+            <label for="picNames">picNames</label>
+            <input type="text3" name="picNames" id="textInput3" placeholder={picNames}>
         </div>
         <div class="textarea-cell">
-            <label for="textarea1">textarea1</label>
-            <textarea name="textarea1" id="myTextArea1" placeholder={comments}></textarea>
+            <label for="comments">comments</label>
+            <textarea name="comments" id="myTextArea1" placeholder={comments} />
         </div>
         <div class="button-cell">
             <button type="submit" disabled={isDisabled}>submit</button>
         </div>
     </form>
 </div>
+{#if form?.success}
+<p>Successfully submitted new rental profile!</p>
+{/if}
