@@ -79,17 +79,10 @@ $navigation-link-text-decoration: none;
 $navigation-font-family: $body-font-family;
 $navigation-font-weight: $body-font-weight;
 
-$flow-navlink-color: $body-text-color;
-$flow-navlink-border: 1px solid #a2a2a2;
-$flow-navlink-background-color: #575757;
+// search
+$paper-bg-color: $color-accent-100;
+$search-bg-color: $color-primary-300;
 
-$flow-navlink-color-hover: $color-primary-700;
-$flow-navlink-border-hover: 1px solid $color-primary-100;
-$flow-navlink-background-color-hover: $color-primary-300;
-
-$flow-navlink-color-active: $color-text-interactive-active;
-$flow-navlink-border-active: 1px solid $color-neutral-000;
-$flow-navlink-background-color-active: $color-primary-600;
 // logo
 $logo-fill-default: white;
 $logo-fill-header: $logo-fill-default;

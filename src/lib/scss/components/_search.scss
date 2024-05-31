@@ -1,0 +1,13 @@
+@use "../abstracts" as *;
+
+.search {
+    background-color: $search-bg-color;
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+    }
+    &-input-box {
+        color: $body-text-color;
+    }
+}
