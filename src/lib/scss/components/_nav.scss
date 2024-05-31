@@ -15,47 +15,23 @@
       &:is(:hover, :focus) {
         color: $navigation-color-hover;
       }
-    }
-  }
-}
-
-
-.nav-column {
-  --flex-column-gap: #{$navigation-gap};
-  font-family: $navigation-font-family;
-  font-weight: $navigation-font-weight;
-  ul {
-    list-style: none;
-
-    li,
-    a {
-      color: $navigation-color;
-      text-decoration: $navigation-link-text-decoration;
-  
-      &:is(:hover, :focus) {
-        color: $navigation-color-hover;
+      &:is(:active) {
+        color: $navigation-color-active;
       }
     }
   }
-}
 
-.nav-row {
-  --flex-column-gap: #{$navigation-gap};
-  font-family: $navigation-font-family;
-  font-weight: $navigation-font-weight;
-  ul {
-    display: flex;
-    gap: $navigation-gap;
-    list-style: none;
-
-    li,
-    a {
-      color: $navigation-color;
-      text-decoration: $navigation-link-text-decoration;
-  
-      &:is(:hover, :focus) {
-        color: $navigation-color-hover;
-      }
+  &-row {
+    ul{
+      display: flex;
+      gap: $navigation-gap;
+      list-style: none;
+    }
+  }
+  &-column {
+    ul{
+      list-style: none;
     }
   }
 }
+

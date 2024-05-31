@@ -11,7 +11,8 @@ $enable-media-query-dark-mode: false;
 $color-text-default: $color-accent-900;
 $color-background-default: $color-primary-100;
 $color-text-interactive-default: $color-text-default;
-$color-text-interactive-hover: $color-accent-500;
+// $color-text-interactive-hover: $color-accent-500;
+$color-text-interactive-hover: $color-neutral-1000;
 $color-text-interactive-active: $color-accent-400;
 
 $letter-spacing: normal;
@@ -69,8 +70,9 @@ $footer-link-text-decoration: none;
 $footer-icon-color: white;
 $footer-link-container-gap: $size-8;
 // navigation
-$navigation-color: $site-header-color;
+$navigation-color: $color-text-default;
 $navigation-color-hover: $color-text-interactive-hover;
+$navigation-color-active: $color-text-interactive-active;
 $navigation-font-size: $font-size-400;
 $navigation-gap: $size-9;
 $navigation-link-text-decoration: none;

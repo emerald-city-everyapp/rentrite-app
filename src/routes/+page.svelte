@@ -1,6 +1,5 @@
 <script>
     import "$lib/main.scss";
-    import FlowNav from "$lib/components/FlowNav.svelte";
     import Nav from "$lib/components/Nav.svelte";
 
     const navLinkList = [

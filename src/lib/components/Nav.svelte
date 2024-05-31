@@ -1,6 +1,7 @@
 <script>
     export let navLinkList = [];
-    export let navClass = "nav-column";
+    export let navClassVar = "nav-column";
+    let navClass = `nav ${navClassVar}`
     //include a way to not display link in list if you're on that page
     //"this is how you should get around my site"
     //so not for footer external links
