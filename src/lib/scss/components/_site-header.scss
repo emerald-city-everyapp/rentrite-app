@@ -1,8 +1,8 @@
 @use "../abstracts" as *;
 
 .site-header {
-    color: #1e1e1e;
-    background-color: #c6c6c6;
+    color: $site-header-color;
+    background-color: $site-header-background-color;
     padding: $site-header-padding;
     &__inner {
         display: flex;
