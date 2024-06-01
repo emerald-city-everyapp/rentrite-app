@@ -22,7 +22,7 @@
             }
         }
     }
-    &-button{
+    &-button {
         align-self: center;
         // background-color: $search-button-bg-color;
         background-color: #a6acbd;
@@ -37,7 +37,11 @@
         max-width: fit-content;
         padding-inline: 1rem;
     }
-    &-button:active{
+    &-button:hover {
+        background-color: $search-button-bg-color-hover;
+        color: $search-button-color-hover;
+    }
+    &-button:active {
         background-color: $search-button-bg-color-active;
         border: 2px solid $search-button-border-active;
         color: $search-button-color-active;
