@@ -5,6 +5,7 @@
     padding: 1rem;
 
     &-form {
+        justify-items: center;
         display: grid;
         gap: 1rem;
         &-box {
@@ -13,7 +14,11 @@
                 font-family: $search-label-ff;
             }
             &-input {
+                border-radius: $border-radius-1;
                 color: $body-text-color;
+            }
+            &-input:focus {
+                background-color: lemonchiffon;
             }
         }
     }
@@ -21,6 +26,20 @@
         align-self: center;
         // background-color: $search-button-bg-color;
         background-color: #a6acbd;
+        border-radius: $border-radius-1;
+        border-top: 2px solid $search-button-border-t;
+        border-left: 2px solid $search-button-border-l;
+        border-bottom: 2px solid $search-button-border-b;
+        border-right: 2px solid $search-button-border-r;
+        color: $search-button-color;
+        cursor: pointer;
         font-family: $search-button-ff;
+        max-width: fit-content;
+        padding-inline: 1rem;
+    }
+    &-button:active{
+        background-color: $search-button-bg-color-active;
+        border: 2px solid $search-button-border-active;
+        color: $search-button-color-active;
     }
 }

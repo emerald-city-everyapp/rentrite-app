@@ -22,13 +22,13 @@
         }
     ];
 </script>
-<div class="section flex-fill flex-fill-parent">
 
+<div class="section flex-fill flex-fill-parent">
     <div class="container flex-fill even-columns">
         <div class="center paper">
-        
-            <h2>Welcome to Rentrite</h2>
-            <div class="section flow">
+            <h2 class="flow">Welcome to Rentrite!</h2>
+            <h3 class="flow">a review site</h3>
+            <div class="flow">
                 <Search />
                 <Nav {navLinkList} />
             </div>
