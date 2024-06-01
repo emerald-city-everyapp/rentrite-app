@@ -2,28 +2,28 @@
 
 .heading-1 {
     @include heading(
-        $size-10,
-        $color-accent-400
+        $font-size-900,
+        $color-accent-900
     )
 }
 
 .heading-2 {
     @include heading(
-        $size-11,
-        $color-accent-400
+        $font-size-800,
+        $color-accent-900
     )
 }
 
 .heading-3 {
     @include heading(
         $font-size-700,
-        $color-primary-400
+        $color-primary-900
     )
 }
 
 .heading-4 {
     @include heading(
-        $size-10,
+        $font-size-600,
         #838383
     )
 }
@@ -32,5 +32,12 @@
     @include heading(
         $font-size-700,
         #adadad 
+    )
+}
+
+.heading-6 {
+    @include heading(
+        $font-size-400,
+        $color-primary-600 
     )
 }

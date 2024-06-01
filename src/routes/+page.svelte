@@ -2,6 +2,7 @@
     import "$lib/main.scss";
     import Nav from "$lib/components/Nav.svelte";
     import Search from "$lib/components/Search.svelte";
+    import Browse from "$lib/components/Browse.svelte";
 
     const navLinkList = [
         {
@@ -26,10 +27,11 @@
 <div class="section flex-fill flex-fill-parent">
     <div class="container flex-fill even-columns">
         <div class="center paper">
-            <h2 class="flow">Welcome to Rentrite!</h2>
-            <h3 class="flow">a review site</h3>
+            <h2 class="heading-3 flow">Welcome to Rentrite!</h2>
+            <h3 class="heading-6 flow">a review site</h3>
             <div class="flow">
                 <Search />
+                <Browse />
                 <Nav {navLinkList} />
             </div>
         </div>

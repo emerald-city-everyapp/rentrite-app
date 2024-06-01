@@ -7,7 +7,7 @@
         <div class="site-header__inner">
             <div class="site-logo">
                 <a href="/">LOGO</a>
-                <h1>{siteTitle}</h1>
+                <h1 class="heading-2">{siteTitle}</h1>
               </div>
               <nav class="nav">
                   <a href="/share">share</a>
