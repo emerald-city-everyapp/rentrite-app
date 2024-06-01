@@ -81,8 +81,11 @@ $navigation-font-weight: $body-font-weight;
 
 // search
 $paper-bg-color: $color-accent-100;
-$search-bg-color: $color-primary-300;
-
+$search-bg-color: $color-primary-100;
+$search-button-bg-color: $color-primary-200;
+$search-label-ff: $font-family-accent;
+$search-button-ff: $font-family-accent;
+$search-grid-gap: 1rem;
 // logo
 $logo-fill-default: white;
 $logo-fill-header: $logo-fill-default;

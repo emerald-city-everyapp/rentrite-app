@@ -22,14 +22,16 @@
         }
     ];
 </script>
+<div class="section flex-fill flex-fill-parent">
 
-<div class="container">
-    <div class="section center paper">
-    
-        <h2>Welcome to Rentrite</h2>
-        <div class="section flow">
-            <Nav {navLinkList} />
-            <Search />
+    <div class="container flex-fill even-columns">
+        <div class="center paper">
+        
+            <h2>Welcome to Rentrite</h2>
+            <div class="section flow">
+                <Search />
+                <Nav {navLinkList} />
+            </div>
         </div>
     </div>
 </div>

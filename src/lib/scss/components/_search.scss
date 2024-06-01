@@ -1,13 +1,26 @@
 @use "../abstracts" as *;
 
-.search {
+.dbsearch {
     background-color: $search-bg-color;
+    padding: 1rem;
 
     &-form {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        gap: 1rem;
+        &-box {
+            display: grid;
+            &-label {
+                font-family: $search-label-ff;
+            }
+            &-input {
+                color: $body-text-color;
+            }
+        }
     }
-    &-input-box {
-        color: $body-text-color;
+    &-button{
+        align-self: center;
+        // background-color: $search-button-bg-color;
+        background-color: #a6acbd;
+        font-family: $search-button-ff;
     }
 }
