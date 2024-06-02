@@ -86,8 +86,8 @@ $search-label-ff: $font-family-accent;
 $search-button-ff: $font-family-accent;
 $search-grid-gap: 1rem;
 
-$search-button-bg-color: $color-primary-200;
-$search-button-color: $color-primary-900;
+// $search-button-bg-color: $color-primary-200;
+// $search-button-color: $color-primary-900;
 $search-button-border-t: $color-neutral-200;
 $search-button-border-l: $color-neutral-200;
 $search-button-border-b: $color-neutral-400;
@@ -122,5 +122,5 @@ $heading-font-weight: $font-weight-bold;
 $heading-line-height: 1.2;
 
 // buttons
-$button-color-default: $color-text-default;
-$button-bg-color-default: $color-background-default;
+$button-color-default:  hsl(240, 6%, 32%);
+$button-bg-color-default: $color-primary-325;

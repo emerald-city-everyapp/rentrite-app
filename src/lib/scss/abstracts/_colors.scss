@@ -27,11 +27,11 @@ $-clr-magenta-900: hsl(316, 18%, 12%);
 $-clr-lavendar-100: hsl(265, 11%, 78%);
 $-clr-silver-200: hsl(244, 11%, 71%);
 $-clr-lavendar-300: hsl(267, 10%, 60%);
-$-clr-silver-325: hsl(224, 15%, 70%);
+$-clr-silver-325: hsl(224, 15%, 70%);//a6acbd kinda
 $-clr-lavendar-400: hsl(266, 10%, 50%);
 $-clr-lavendar-500: hsl(267, 10%, 40%);
 $-clr-lavendar-600: hsl(264, 5%, 40%);
-$-clr-silver-700: hsl(240, 6%, 32%); //4d4d56
+$-clr-silver-700: hsl(240, 6%, 32%); //4d4d56 (4d4d57)
 $-clr-blueblack-900: hsl(235, 18%, 12%);
 
 // --themes--------------------------------------------
@@ -69,7 +69,7 @@ $light: (
     "500": $-clr-lavendar-500,
     "600": $-clr-lavendar-600,
     "700": $-clr-silver-700,
-    "800": $-clr-skyblue-800,
+    "800": $-clr-silver-700,
     "900": $-clr-blueblack-900,
   ),
 );
@@ -101,7 +101,7 @@ $dark: (
   ),
   "primary": (
     "100": $-clr-magenta-900,
-    "200": $-clr-skyblue-800,
+    "200": $-clr-silver-700,
     "300": $-clr-lavendar-500,
     "325": $-clr-silver-325,
     "400": $-clr-lavendar-600,

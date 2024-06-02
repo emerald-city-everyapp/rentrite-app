@@ -36,9 +36,9 @@
 }
 
 @mixin button($fs, $ff, $color: $button-color-default, $bg-color: $button-bg-color-default) {
-  background-color: $button-bg-color-default;
+  background-color: $bg-color;
   border-radius: $border-radius-1;
-  border-top: 2px solid $search-button-border-t;
+  border-top: 2px solid $search-button-border-t;//add these variables to pass in?
   border-left: 2px solid $search-button-border-l;
   border-bottom: 2px solid $search-button-border-b;
   border-right: 2px solid $search-button-border-r;
