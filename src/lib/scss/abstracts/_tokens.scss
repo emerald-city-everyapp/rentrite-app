@@ -122,5 +122,6 @@ $heading-font-weight: $font-weight-bold;
 $heading-line-height: 1.2;
 
 // buttons
-$button-color-default:  hsl(240, 6%, 32%);
+$button-color-default:  hsl(235, 18%, 12%); //if it's the same in both light/dark modes, 
+//put it here instead of ruining your color maps
 $button-bg-color-default: $color-primary-325;
