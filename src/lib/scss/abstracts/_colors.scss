@@ -31,7 +31,7 @@ $-clr-silver-325: hsl(224, 15%, 70%);
 $-clr-lavendar-400: hsl(266, 10%, 50%);
 $-clr-lavendar-500: hsl(267, 10%, 40%);
 $-clr-lavendar-600: hsl(264, 5%, 40%);
-$-clr-silver-700: hsl(240, 6%, 32%);
+$-clr-silver-700: hsl(240, 6%, 32%); //4d4d56
 $-clr-blueblack-900: hsl(235, 18%, 12%);
 
 // --themes--------------------------------------------
@@ -89,7 +89,7 @@ $dark: (
     "1000": $-clr-white,
   ),
   "accent": (
-    "100": $-clr-magenta-900,
+    "100": $-clr-silver-700,
     "200": $-clr-teal-800,
     "300": $-clr-teal-700,
     "400": $-clr-magenta-600,
@@ -100,12 +100,12 @@ $dark: (
     "900": $-clr-pink-100,
   ),
   "primary": (
-    "100": $-clr-blueblack-900,
+    "100": $-clr-magenta-900,
     "200": $-clr-skyblue-800,
-    "300": $-clr-silver-700,
+    "300": $-clr-lavendar-500,
     "325": $-clr-silver-325,
     "400": $-clr-lavendar-600,
-    "500": $-clr-lavendar-500,
+    "500": $-clr-blueblack-900,
     "600": $-clr-lavendar-400,
     "700": $-clr-lavendar-300,
     "800": $-clr-silver-200,
