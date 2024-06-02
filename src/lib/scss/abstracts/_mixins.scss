@@ -34,3 +34,18 @@
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
 }
+
+@mixin button($fs, $ff, $color: $button-color-default, $bg-color: $button-bg-color-default) {
+  background-color: $button-bg-color-default;
+  border-radius: $border-radius-1;
+  border-top: 2px solid $search-button-border-t;
+  border-left: 2px solid $search-button-border-l;
+  border-bottom: 2px solid $search-button-border-b;
+  border-right: 2px solid $search-button-border-r;
+  color: $color;
+  cursor: pointer;
+  font-family: $ff;
+  font-size: $fs;
+  max-width: fit-content;
+  padding-inline: 1rem;
+}

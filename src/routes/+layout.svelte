@@ -5,7 +5,8 @@
 </script>
 
 <svelte:head>
-    <title>Rentrite</title>
+    <title>Rentrite: a place for renters to leave reviews</title>
+    <meta name="description" content="a site where a users leave reviews on rental spaces in Seattle"/>
 </svelte:head>
 
 <div class="body-layout">
