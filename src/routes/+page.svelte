@@ -3,7 +3,7 @@
     import Nav from "$lib/components/Nav.svelte";
     import Search from "$lib/components/Search.svelte";
     import Browse from "$lib/components/Browse.svelte";
-
+    import badPillow from "$lib/bad_pillow.svg";
     const navLinkList = [
         {
             href: "/rental-profile",
@@ -33,6 +33,7 @@
                 <Search />
                 <Browse />
                 <Nav {navLinkList} />
+                <img class="mySvg" src={badPillow} alt="lumpy pilly svg" />
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
 
 $space-top: 2.2rem;
 $space-bottom: 0rem;
-$active-theme: $dark;
+$active-theme: $light;
 $enable-media-query-dark-mode: false;
 
 // Contextual
@@ -88,8 +88,8 @@ $search-grid-gap: 1rem;
 
 // $search-button-bg-color: $color-primary-200;
 // $search-button-color: $color-primary-900;
-$search-button-border-t: $color-neutral-200;
-$search-button-border-l: $color-neutral-200;
+$search-button-border-t: #c6c1cd;
+$search-button-border-l: #c6c1cd;
 $search-button-border-b: $color-neutral-400;
 $search-button-border-r: $color-neutral-400;
 $search-button-color-active: $color-accent-200;
@@ -105,6 +105,8 @@ $logo-fill-footer: $logo-fill-default;
 $logo-size-default: 42px;
 $logo-size-header: $logo-size-default;
 $logo-size-footer: $logo-size-default;
+
+$mySvg-fill: $color-text-default;
 // forms
 
 //-->placeholder text

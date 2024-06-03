@@ -1,0 +1,7 @@
+@use "../abstracts" as *;
+
+.mySvg {
+    width: 1rem;
+    height: 1rem;
+    fill: $mySvg-fill;
+}
