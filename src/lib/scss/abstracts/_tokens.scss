@@ -56,6 +56,7 @@ $grid-gap: $size-8;
 $site-header-color: $body-text-color;
 $site-header-background-color: $color-primary-300;
 $site-header-gap: $size-8;
+$site-header-gap-small: $size-2;
 $site-header-alignment: $size-8;
 $site-header-jusitifcation-small-screens: space-evenly;
 $site-header-jusitifcation-large-screens: space-between;
@@ -126,3 +127,6 @@ $heading-line-height: 1.2;
 $button-color-default:  hsl(235, 18%, 12%); //if it's the same in both light/dark modes, 
 //put it here instead of ruining your color maps
 $button-bg-color-default: $color-primary-325;
+
+// svgs
+$svglink-gap: $size-2;

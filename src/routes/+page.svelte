@@ -33,7 +33,6 @@
                 <Search />
                 <Browse />
                 <Nav {navLinkList} />
-                <img class="mySvg" src={inkblot} alt="lumpy pilly svg" />
             </div>
         </div>
     </div>

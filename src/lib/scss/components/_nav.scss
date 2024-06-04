@@ -37,10 +37,10 @@
 }
 
 .nav-header-grid {
-  display: grid;
 }
+
 .svglink {
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  gap: $svglink-gap;
 }

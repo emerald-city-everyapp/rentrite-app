@@ -5,21 +5,22 @@
     background-color: $site-header-background-color;
     padding: $site-header-padding;
     &__inner {
-        display: flex;
-        gap: $site-header-gap;
-        align-items: $site-header-alignment;
-        justify-content: $site-header-jusitifcation-small-screens;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: $site-header-gap-small;
+
        
         & a {
             text-decoration: none;
         }
         
         @include mq(medium) {
-          justify-content: $site-header-jusitifcation-large-screens;
+          grid-template-columns: 2fr 1fr;
+          gap: $site-header-gap;
         }
       }
 }
 
 .site-logo {
-  
+
 }
