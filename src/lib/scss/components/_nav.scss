@@ -18,9 +18,10 @@
       &:is(:active) {
         color: $navigation-color-active;
       }
+
     }
   }
-
+  
   &-row {
     ul{
       display: flex;
@@ -35,3 +36,11 @@
   }
 }
 
+.nav-header-grid {
+  display: grid;
+}
+.svglink {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

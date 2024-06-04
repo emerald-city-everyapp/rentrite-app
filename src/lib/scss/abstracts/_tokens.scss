@@ -5,7 +5,7 @@
 $space-top: 2.2rem;
 $space-bottom: 0rem;
 $active-theme: $light;
-$enable-media-query-dark-mode: true;
+$enable-media-query-dark-mode: false;
 
 // Contextual
 $color-text-default: $color-accent-900;
@@ -106,7 +106,6 @@ $logo-size-default: 42px;
 $logo-size-header: $logo-size-default;
 $logo-size-footer: $logo-size-default;
 
-$mySvg-fill: $color-text-default;
 // forms
 
 //-->placeholder text

@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 
 .mySvg {
+    align-self: center;
     width: 1rem;
     height: 1rem;
-    fill: $mySvg-fill;
 }
