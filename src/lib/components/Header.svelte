@@ -8,12 +8,12 @@
             <div class="site-logo">
                 <a href="/">LOGO</a>
                 <h1 class="heading-1">{siteTitle}</h1>
-              </div>
-              <nav class="nav">
-                  <a href="/login">login</a>
-                  <a href="/contact">contact</a>
-                  <a href="/share">share</a>
-              </nav>
+            </div>
+            <nav class="nav">
+                <a href="/login">login</a>
+                <a href="/contact">contact</a>
+                <a href="/share">share</a>
+            </nav>
         </div>
     </div>
 </header>
