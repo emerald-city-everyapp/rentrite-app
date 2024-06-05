@@ -13,15 +13,15 @@
             </div>
             <nav class="nav">
                 <ul class="nav-header-grid">
-                    <li class="svglink">
+                    <li class="subgrid top">
                         <img class="mySvg" src={inkblot} alt="lumpy pilly svg" />                        
                         <a href="/login">login</a>
                     </li>
-                    <li class="svglink">
+                    <li class="subgrid middle">
                         <img class="mySvg" src={inkblot} alt="lumpy pilly svg" />                        
                         <a href="/contact">contact</a>
                     </li>
-                    <li class="svglink">
+                    <li class="subgrid bottom">
                         <img class="mySvg" src={inkblot} alt="lumpy pilly svg" />                       
                         <a href="/share">share</a>
                     </li>
