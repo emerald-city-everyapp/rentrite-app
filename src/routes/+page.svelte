@@ -32,7 +32,7 @@
             <div class="flow">
                 <Search />
                 <Browse />
-                <Nav {navLinkList} />
+                <!-- <Nav {navLinkList} /> -->
             </div>
         </div>
     </div>

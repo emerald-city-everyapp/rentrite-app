@@ -1,7 +1,12 @@
 @use "../abstracts" as *;
 
 .section {
-  padding-block: $section-padding-block;
+  padding-block: $section-padding-block-small;
+
+  @include mq(medium) {
+    padding-block: $section-padding-block;
+ 
+  }
 }
 
 //x is for left-to-right, so mx is margin left to right or, inline:

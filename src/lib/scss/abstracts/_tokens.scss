@@ -2,8 +2,9 @@
 @use "typography" as *;
 @use "sizes" as *;
 
-$space-top: 2.2rem;
+$space-top: 2.2rem; //is this being used?
 $space-bottom: 0rem;
+
 $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
@@ -45,6 +46,7 @@ $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
 $section-padding-block: clamp(3rem, 10vh, 7rem);
+$section-padding-block-small: clamp(1rem, 5vh, 4rem);
 
 $inner-layout-bg-color: $color-accent-100;
 $inner-layout-color: $body-text-color;
