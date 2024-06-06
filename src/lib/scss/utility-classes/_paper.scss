@@ -2,14 +2,15 @@
 
 .paper {
     align-items: center;
+    background-color: $paper-bg-color;
     border-top: 1px solid aliceblue;
     border-left: 1px solid aliceblue;
     border-bottom: 1px solid silver;
     border-right: 1px solid silver;
-    background-color: $paper-bg-color;
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: $size-4;
+    justify-content: center;
     @include border2(aliceblue, aliceblue, silver, silver);
 }

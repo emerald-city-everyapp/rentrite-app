@@ -4,19 +4,18 @@
     background-color: $search-bg-color;
     color: #c6c1cd;
     display: grid;
-    justify-items: center;
-    padding-block: 1rem;
-    max-width: 90%;
+    gap: $size-4;
+    grid-template-columns: 1fr;
+    padding: .5rem;
     @include mq(medium) {
         padding: 1rem;
     }
-    &-form {
-        justify-items: center;
-        display: grid;
-        gap: 1rem;
-        &-box {
+    &-grid {
             display: grid;
+            gap: $size-2;
+            grid-template-columns: 1fr;
             &-label {
+                color: $body-text-color;
                 font-family: $search-label-ff;
             }
             &-input {
@@ -26,14 +25,9 @@
             &-input:focus {
                 background-color: lemonchiffon;
             }
-        }
     }
     &-button {
         align-self: center;
-
-        // background-color: $search-button-bg-color;
-        // background-color: #a6acbd;
-        // color: $search-button-color;
 
         @include button(
             $body-font-size,

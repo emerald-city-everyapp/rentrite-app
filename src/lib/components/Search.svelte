@@ -1,8 +1,8 @@
-<search class="dbsearch">
-    <form action="" class="dbsearch-form">
-        <div class="dbsearch-form-box">
-            <label class="dbsearch-form-box-label" for="lookup">enter an address:</label>
-            <input class="dbsearch-form-box-input" type="search" name="lookup">
+<search class="">
+    <form action="" class="dbsearch">
+        <div class="dbsearch-grid">
+            <label class="dbsearch-grid-label" for="lookup">enter an address:</label>
+            <input class="dbsearch-grid-input" type="search" name="lookup">
         </div>
         <button class="dbsearch-button" type="submit">look it up</button>
     </form>
