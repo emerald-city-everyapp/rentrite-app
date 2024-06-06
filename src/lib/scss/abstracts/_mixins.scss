@@ -49,3 +49,25 @@
   max-width: fit-content;
   padding-inline: 1rem;
 }
+
+@mixin border(
+  $top: $border-default-top, 
+  $left: $border-default-left, 
+  $bottom: $border-default-bottom, 
+  $right: $border-default-right) {
+    border-top: 2px solid $top;
+    border-left: 2px solid $left;
+    border-bottom: 2px solid $bottom;
+    border-right: 2px solid $right;
+}
+
+@mixin border2(
+  $top: $border-default-top, 
+  $left: $border-default-left, 
+  $bottom: $border-default-bottom, 
+  $right: $border-default-right) {
+    border-top: 1px solid $top;
+    border-left: 1px solid $left;
+    border-bottom: 1px solid $bottom;
+    border-right: 1px solid $right;
+}

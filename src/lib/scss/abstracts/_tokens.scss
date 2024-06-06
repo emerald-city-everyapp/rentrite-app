@@ -130,5 +130,10 @@ $button-color-default:  hsl(235, 18%, 12%); //if it's the same in both light/dar
 //put it here instead of ruining your color maps
 $button-bg-color-default: $color-primary-325;
 
+// borders
+$border-default-top: #fff;
+$border-default-left: #fff;
+$border-default-bottom: #fff;
+$border-default-right: #fff;
 // svgs
 $svglink-gap: $size-2;

@@ -11,5 +11,5 @@
     flex: 1;
     flex-direction: column;
     justify-content: space-evenly;
-
+    @include border2(aliceblue, aliceblue, silver, silver);
 }
