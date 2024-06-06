@@ -26,10 +26,10 @@
 
 <div class="section flex-fill flex-fill-parent">
     <div class="container flex-fill even-columns">
-        <div class="center paper">
+        <div class="paper">
             <h2 class="heading-3 flow">Welcome to Rentrite!</h2>
             <h3 class="heading-6 flow">a review site</h3>
-            <div class="flow">
+            <div class="paper2">
                 <Search />
                 <Browse />
                 <!-- <Nav {navLinkList} /> -->

@@ -3,8 +3,13 @@
 .dbsearch {
     background-color: $search-bg-color;
     color: #c6c1cd;
-    padding: 1rem;
-
+    display: grid;
+    justify-items: center;
+    padding-block: 1rem;
+    max-width: 90%;
+    @include mq(medium) {
+        padding: 1rem;
+    }
     &-form {
         justify-items: center;
         display: grid;

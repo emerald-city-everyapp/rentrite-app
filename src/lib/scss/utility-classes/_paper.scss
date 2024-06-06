@@ -1,5 +1,17 @@
 @use "../abstracts" as *;
 
 .paper {
+    border-top: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
     background-color: $paper-bg-color;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+
+    // & .paper2 {
+    //     display: grid;
+    //     grid-template-columns: subgrid;
+    // }
 }

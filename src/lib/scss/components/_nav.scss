@@ -43,6 +43,7 @@
   grid-template-rows: repeat(3, 1fr);
 
   & .subgrid {
+    font-family: $font-family-base;
     justify-items: center;
     display: grid;
     grid-template-rows: subgrid;
