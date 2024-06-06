@@ -27,8 +27,8 @@
 <div class="section container flex-fill flex-fill-parent">
         <div class="paper">
             <hgroup class="hgroup-home">
-                <h2 class="heading-3 flow">Welcome to Rentrite!</h2>
-                <h3 class="heading-6 flow">a review site</h3>
+                <h2 class="heading-3 flow text-center">Welcome to Rentrite!</h2>
+                <h3 class="heading-6 flow text-center">a review site</h3>
             </hgroup>
             <Search />
             <Browse />

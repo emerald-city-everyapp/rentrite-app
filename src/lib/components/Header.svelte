@@ -1,6 +1,6 @@
 <script>
     let siteTitle = "Rentrite";
-    import inkblot from "$lib/inkblot.svg";
+    import inkblot from "$lib/bad_pillow_plain.svg";
     //I guess conditionally display svgs based on dark/light mode, if fill has to be defined in the svg file? :P
 </script>
 
