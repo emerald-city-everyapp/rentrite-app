@@ -24,16 +24,14 @@
     ];
 </script>
 
-<div class="section flex-fill flex-fill-parent">
-    <div class="container flex-fill even-columns">
+<div class="section container flex-fill flex-fill-parent">
         <div class="paper">
-            <h2 class="heading-3 flow">Welcome to Rentrite!</h2>
-            <h3 class="heading-6 flow">a review site</h3>
-            <div class="paper2">
-                <Search />
-                <Browse />
+            <hgroup class="hgroup-home">
+                <h2 class="heading-3 flow">Welcome to Rentrite!</h2>
+                <h3 class="heading-6 flow">a review site</h3>
+            </hgroup>
+            <Search />
+            <Browse />
                 <!-- <Nav {navLinkList} /> -->
-            </div>
         </div>
-    </div>
 </div>
