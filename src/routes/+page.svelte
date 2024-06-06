@@ -32,6 +32,6 @@
             </hgroup>
             <Search />
             <Browse />
-                <!-- <Nav {navLinkList} /> -->
+            <Nav {navLinkList} />
         </div>
 </div>
