@@ -9,7 +9,7 @@
         <div class="site-header__inner">
             <div class="site-logo">
                 <a href="/">LOGO</a>
-                <h1 class="heading-1">{siteTitle}</h1>
+                <a href="/"><h1 class="heading-1">{siteTitle}</h1></a>
             </div>
             <nav class="nav">
                 <ul class="nav-header-grid">
