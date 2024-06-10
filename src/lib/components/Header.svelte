@@ -1,6 +1,7 @@
 <script>
     let siteTitle = "Rentrite";
     import inkblot from "$lib/bad_pillow_plain.svg";
+    import inkblot2 from "$lib/inkblot.svg";
     //I guess conditionally display svgs based on dark/light mode, if fill has to be defined in the svg file? :P
 </script>
 
@@ -18,7 +19,7 @@
                         <a href="/login">login</a>
                     </li>
                     <li class="subgrid middle">
-                        <img class="mySvg" src={inkblot} alt="lumpy pilly svg" />                        
+                        <img class="mySvg" src={inkblot2} alt="lumpy pilly svg" />                        
                         <a href="/contact">contact</a>
                     </li>
                     <li class="subgrid bottom">

@@ -4,7 +4,7 @@
     export let form;
     let address = "address"; //address
     let tags = "tags"; //tags
-    let picNames = "picNames"; //picNames
+    let picIds = "picIds"; //picIds
     let comments = "leave a comment"; //comments
     let isDisabled = false;
 </script>
@@ -27,8 +27,8 @@
             <input type="text2" name="tags" id="textInput2" placeholder={tags}>
         </div>
         <div class="input-cell">
-            <label for="picNames">picNames</label>
-            <input type="text3" name="picNames" id="textInput3" placeholder={picNames}>
+            <label for="picIds">picIds</label>
+            <input type="text3" name="picIds" id="textInput3" placeholder={picIds}>
         </div>
         <div class="textarea-cell">
             <label for="comments">comments</label>

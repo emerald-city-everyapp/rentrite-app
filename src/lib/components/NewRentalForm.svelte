@@ -2,7 +2,7 @@
     import { enhance } from "$app/forms";
     let address = "address"; //address
     let tags = "tags"; //tags
-    let picNames = "picNames"; //picNames
+    let picIds = "picIds"; //picIds
     let comments = "leave a comment"; //comments
     let isDisabled = true;
 </script>
@@ -18,8 +18,8 @@
             <input type="text2" name="textbox2" id="textInput2" placeholder={tags}>
         </div>
         <div class="input-cell">
-            <label for="textbox">picNames</label>
-            <input type="text3" name="textbox3" id="textInput3" placeholder={picNames}>
+            <label for="textbox">picIds</label>
+            <input type="text3" name="textbox3" id="textInput3" placeholder={picIds}>
         </div>
         <div class="textarea-cell">
             <label for="textarea1">textarea1</label>

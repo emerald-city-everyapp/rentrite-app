@@ -1,7 +1,7 @@
 import { fail, error } from '@sveltejs/kit';
 import { baseUrl, cleaner } from '$lib/utils.js';
 
-const url = `${baseUrl}create`;
+const url = `${baseUrl}rentalprofile`;
 
 export async function load() { //do we even need to "GET" anything?
     console.log("url: ", url);

@@ -1,10 +1,11 @@
 export const baseUrl =  "https://rentrite-backend-staging-53dxbcm3gq-uc.a.run.app/";
+
 export function cleaner(data) {
     const dataObject = Object.fromEntries(data);
-    const { address, picNames, tags, comments } = dataObject;
+    const { address, picIds, tags, comments } = dataObject;
     const formattedObject = {
         "address": address,
-        "picNames": [picNames],
+        "picIds": [picIds],
         "tags": [tags],
         "comments": [comments]
     }

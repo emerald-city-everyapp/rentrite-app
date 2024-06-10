@@ -3,10 +3,9 @@
     export let pictureSrc = "src/lib/memeLocalhost.png";
     export let pictureAlt = "Captain America says localhost is free like America";
     export let descriptor = "how do we dynamically write this? madlibs? farm specific content from comments?";
-    // export let icons = [ "🔥", "🧻", "💩" ]; 
     export let tags = [ "🔥", "🧻", "💩" ];
-    export let picNames = "picNames";
-    export let comments = "comments";
+    export let picIds = ["picIds"];
+    export let comments = ["comments"];
 
     //these probably need to be dynamic links or on hover give an explanation or some third kind of interactability
     //icon tags need to be their own component with careful styling
@@ -24,8 +23,8 @@
             <h3 class="heading-5">{address}</h3>
             <p>{descriptor}</p>
             <div class="flex-group">
-                {#each picNames as picName}
-                <p>{picName}</p>
+                {#each picIds as picId}
+                <p>{picId}</p>
                 {/each}
             </div>
             <div class="flex-group">
