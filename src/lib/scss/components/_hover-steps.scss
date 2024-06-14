@@ -1,5 +1,8 @@
 @use "../abstracts" as *;
 
+.nav-header {
+    max-width: 15em;
+}
 
 .nav-header-grid {
     display: grid;
@@ -17,6 +20,8 @@
         background-color: aliceblue;
         color: $color-accent-500;
       }
+      &__site-link {
+        }
     }
   
     .top,
