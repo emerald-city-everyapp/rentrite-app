@@ -130,6 +130,30 @@ $button-color-default:  hsl(235, 18%, 12%); //if it's the same in both light/dar
 //put it here instead of ruining your color maps
 $button-bg-color-default: $color-primary-325;
 
+$button-line-height: 1.8;
+$button-font-family: $font-family-accent;
+$button-font-size: $size-5;
+$button-text-transform: none;
+$button-font-weight: $body-font-weight;
+$button-padding: 1rem;
+// $button-border: (using a mixin for this)
+// $button-border-radius (^ see mixin)
+
+//[data-type="primary"]
+$button-primary-background: $color-primary-200;
+$button-primary-color: $color-primary-900;
+$button-primary-background-hover:  $color-primary-700;
+$button-primary-color-hover: $color-accent-100;
+//[data-type="accent"]
+$button-accent-background: #fff;
+$button-accent-color: #fff;
+$button-accent-background-hover: #fff;
+$button-accent-color-hover: #fff;
+//[data-type="link"]
+$link-background-color: $body-background-color;
+$link-button-color: $body-text-color;
+$link-button-background-color: $button-primary-background-hover;
+
 // borders
 $border-default-top: #fff;
 $border-default-left: #fff;

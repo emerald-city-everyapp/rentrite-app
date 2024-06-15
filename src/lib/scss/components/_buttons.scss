@@ -1,0 +1,82 @@
+@use "../abstracts/" as *;
+
+.button {
+      background-color: $button-bg-color-default;
+      border-radius: $border-radius-1;
+      color: $button-color-default;
+      display: inline-flex;
+      justify-content: center;
+      cursor: pointer;
+      text-decoration: none;
+      max-width: fit-content;
+
+      line-height: $button-line-height;
+      font-family: $button-font-family;
+      font-size: $button-font-size;
+      text-transform: $button-text-transform;
+      font-weight: $button-font-weight;
+  
+      padding-inline: $button-padding;
+      // border: $button-border;
+      // border-radius: $button-border-radius;
+      transition: 275ms ease;
+  
+      &[data-type="primary"] {
+          background-color: $button-primary-background;
+          color: $button-primary-color;
+      
+          &:is(:hover, :focus) {
+            background-color: $button-primary-background-hover;
+            color: $button-primary-color-hover;
+          }
+      }
+
+      &[data-type="accent"] {
+        background-color: $button-accent-background;
+        color: $button-accent-color;
+    
+        &:is(:hover, :focus) {
+          background-color: $button-accent-background-hover;
+          color: $button-accent-color-hover;
+        }
+      }
+
+      &[data-type="link"] {
+        background-color: $link-background-color;
+        color: $link-button-color;
+        
+        &:is(:hover, :focus) {
+          background-color: $link-button-background-color;
+          color: $link-button-color;
+        }
+      }
+      
+}
+
+
+//---Add in transparent border for high contrast mode---------------------
+
+// button {
+//   display: inline-block;
+//   padding: 0.5rem 2rem;
+//   font: inherit;
+//   font-weight: bold;
+//   border-radius: 2rem;
+//   border: 1px solid transparent;
+//   background: #3f25c4;
+//   color: #ffffff;
+//   min-width: 10rem;
+//   cursor: pointer;
+// }
+
+// button:hover,
+// button:focus {
+//   background: #8c7ae6;
+//   color: #000000;
+// }
+
+// button:focus {
+//   outline: 2px solid transparent;
+//   outline-offset: 4px;
+//   box-shadow: 0px 0px 0px 3px #192a56;
+// }

@@ -29,10 +29,10 @@
     &-button {
         align-self: center;
 
-        @include button(
-            $body-font-size,
-            $body-font-family
-        )
+        // @include button(
+        //     $body-font-size,
+        //     $body-font-family
+        // )
     }
     &-button:hover {
         background-color: $search-button-bg-color-hover;
