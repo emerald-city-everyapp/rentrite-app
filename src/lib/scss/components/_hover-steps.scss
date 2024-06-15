@@ -12,18 +12,25 @@
   
     & .subgrid {
         border: 1px solid $subgrid-border;
-      font-family: $font-family-base;
-      justify-items: center;
-      display: grid;
-      grid-template-rows: subgrid;
-      grid-template-columns: 1fr 3fr;
-      &:is(:hover, :focus) {
+        font-family: $font-family-base;
+        justify-items: center;
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-template-columns: 1fr 3fr;
+        &:is(:hover, :focus) {
         background-color: aliceblue;
         color: $color-accent-500;
-      }
-      &__site-link {
-        align-self: center;
-        justify-self: start;
+        }
+        &__site-link {
+            align-self: center;
+            justify-self: start;
+        }
+
+        &__mySvg {
+            align-self: center;
+            justify-self: end;
+            width: 1.3rem;
+            height: 1.3rem;
         }
     }
   

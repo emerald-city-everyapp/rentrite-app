@@ -22,14 +22,15 @@
       
       &[data-type="primary"] {
         background-color: $button-primary-background;
-        color: $button-primary-color;
+        // color: $search-bg-color;
+        color: $body-text-color;
         font-size: $button-font-size;
-          max-width: fit-content;
+        max-width: fit-content;
  
-          &:is(:hover, :focus) {
-            background-color: $button-primary-background-hover;
-            color: $button-primary-color-hover;
-          }
+        &:is(:hover, :focus) {
+          background-color: $button-primary-background-hover;
+          color: $button-primary-color-hover;
+        }
       }
 
       &[data-type="accent"] {
