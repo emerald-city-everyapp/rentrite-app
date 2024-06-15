@@ -4,27 +4,28 @@
       background-color: $button-bg-color-default;
       border-radius: $border-radius-1;
       color: $button-color-default;
-      display: inline-flex;
-      justify-content: center;
+      // display: inline-flex;
+      // justify-content: center;
       cursor: pointer;
       text-decoration: none;
-      max-width: fit-content;
+      // max-width: fit-content;
 
-      line-height: $button-line-height;
+      // line-height: $button-line-height;
       font-family: $button-font-family;
-      font-size: $button-font-size;
       text-transform: $button-text-transform;
       font-weight: $button-font-weight;
-  
+      
       padding-inline: $button-padding;
       // border: $button-border;
       // border-radius: $button-border-radius;
       transition: 275ms ease;
-  
-      &[data-type="primary"] {
-          background-color: $button-primary-background;
-          color: $button-primary-color;
       
+      &[data-type="primary"] {
+        background-color: $button-primary-background;
+        color: $button-primary-color;
+        font-size: $button-font-size;
+          max-width: fit-content;
+ 
           &:is(:hover, :focus) {
             background-color: $button-primary-background-hover;
             color: $button-primary-color-hover;
@@ -34,7 +35,8 @@
       &[data-type="accent"] {
         background-color: $button-accent-background;
         color: $button-accent-color;
-    
+        max-width: fit-content;
+
         &:is(:hover, :focus) {
           background-color: $button-accent-background-hover;
           color: $button-accent-color-hover;
@@ -42,7 +44,7 @@
       }
 
       &[data-type="link"] {
-        background-color: $link-background-color;
+        background-color: inherit;
         color: $link-button-color;
         
         &:is(:hover, :focus) {
