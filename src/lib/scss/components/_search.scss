@@ -26,25 +26,14 @@
                 background-color: lemonchiffon;
             }
     }
-    &-button {
-        align-self: center;
 
-        // @include button(
-        //     $body-font-size,
-        //     $body-font-family
-        // )
-    }
-    &-button:hover {
-        background-color: $search-button-bg-color-hover;
-        color: $search-button-color-hover;
-    }
-    &-button:active {
-        background-color: $search-button-bg-color-active;
-        border: 2px solid $search-button-border-active;
-        color: $search-button-color-active;
-    }
-}
-
-.dbsearch2 {
-    flex-basis: 1;
+    // &-button:hover {
+    //     background-color: $search-button-bg-color-hover;
+    //     color: $search-button-color-hover;
+    // }
+    // &-button:active {
+    //     background-color: $search-button-bg-color-active;
+    //     border: 2px solid $search-button-border-active;
+    //     color: $search-button-color-active;
+    // }
 }

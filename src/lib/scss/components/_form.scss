@@ -53,3 +53,15 @@ textarea {
     font-weight: $form-placeholder-font-weight;
     font-family: $form-placeholder-font-family;
   }
+
+.inputs {
+    border-radius: $border-radius-1;
+    color: $body-text-color;
+}
+.inputs:focus {
+    background-color: $inputs-bg-color;
+}
+.labels {
+    color: $body-text-color;
+    font-family: $search-label-ff;
+}

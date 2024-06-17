@@ -111,7 +111,11 @@ $logo-size-header: $logo-size-default;
 $logo-size-footer: $logo-size-default;
 
 // forms
-
+//-->inputs
+$inputs-bg-color: $color-primary-000;
+//-->labels
+$labels-color: $body-text-color;
+$labels-ff: $font-family-accent;
 //-->placeholder text
 $form-placeholder-color: $color-text-interactive-default;
 $form-placeholder-font-weight: $font-weight-bold;

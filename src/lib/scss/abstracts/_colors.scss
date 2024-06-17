@@ -15,69 +15,30 @@ $-clr-skyblue-800: hsl(216 75% 17.5%);
 //accent
 $-clr-teal-000: #99f0ff;
 $-clr-indigo-100: #b2c4f4;
-
-// $-clr-teal-300: hsl(189, 50%, 70%);
 $-clr-teal-200: #8ccdd9;
-
 $-clr-violet-300: #d2b2f4;
-
-// $-clr-magenta-200: hsl(326, 37%, 71%);
 $-clr-magenta-400: #d09ab9;
-
-// $-clr-magenta-400: hsl(321, 33%, 60%);
 $-clr-magenta-500: #bb77a3;
-
 $-clr-crimson-600: #f74553;
-
-// $-clr-teal-700: hsl(189, 50%, 40%);
 $-clr-teal-700: #338a99;
-
-// $-clr-teal-800: hsl(189, 100%, 31%);
 $-clr-teal-800: #00869e;
-
-// $-clr-magenta-500: hsl(319, 70%, 43%);
 $-clr-magenta-900: #ba218a;
-
-// $-clr-magenta-600: hsl(314, 63%, 40%);
 $-clr-magenta-1000: #a62688;
 
+$-clr-silver-325: #020307;//possibly add into the accent 1000 position, ditch a dark teal or magenta
+
 //primary
-// $-clr-pink-100: hsl(344, 85%, 97%);
 $-clr-pink-000: #fef1f4;
-
-// $-clr-lavendar-100: hsl(265, 11%, 78%);
 $-clr-lavendar-100: #c6c1cd;
-
-// $-clr-silver-200: hsl(244, 11%, 71%);
 $-clr-silver-200: #aeadbd;
-
-//
 $-clr-silver-300: #a7adbe;
-
-// $-clr-lavendar-300: hsl(267, 10%, 60%);
 $-clr-lavendar-400: #988fa3;
-
-// $-clr-lavendar-400: hsl(266, 10%, 50%);
 $-clr-lavendar-500: #7e738c;
-
-// $-clr-lavendar-600: hsl(264, 5%, 40%);
 $-clr-lavendar-600: #65616b;
-
-// $-clr-lavendar-500: hsl(267, 10%, 40%);
 $-clr-lavendar-700: #655c70;
-
-// $-clr-silver-700: hsl(240, 6%, 32%); //4d4d56 (4d4d57)
-$-clr-silver-800: #4d4d56; //4d4d56 (4d4d57)
-
-// $-clr-magenta-900: hsl(316, 18%, 12%);
+$-clr-silver-800: #4d4d56; 
 $-clr-magenta-900: #241921;
-
-// $-clr-blueblack-900: hsl(235, 18%, 12%);
 $-clr-blueblack-1000: #191a24;
-
-//what's this one for??
-// $-clr-silver-325: hsl(224, 15%, 70%);//a6acbd kinda
-$-clr-silver-325: #020307;//a6acbd kinda ???????????/???
 // --themes--------------------------------------------
 $light: (
   "neutral": (
@@ -176,6 +137,7 @@ $color-neutral-800: var(--neutral-800);
 $color-neutral-900: var(--neutral-900);
 $color-neutral-1000: var(--neutral-1000);
 
+$color-primary-000: var(--primary-000);
 $color-primary-100: var(--primary-100);
 $color-primary-200: var(--primary-200);
 $color-primary-300: var(--primary-300);
@@ -186,7 +148,9 @@ $color-primary-600: var(--primary-600);
 $color-primary-700: var(--primary-700);
 $color-primary-800: var(--primary-800);
 $color-primary-900: var(--primary-900);
+$color-primary-1000: var(--primary-1000);
 
+$color-accent-000: var(--accent-000);
 $color-accent-100: var(--accent-100);
 $color-accent-200: var(--accent-200);
 $color-accent-300: var(--accent-300);
@@ -196,3 +160,4 @@ $color-accent-600: var(--accent-600);
 $color-accent-700: var(--accent-700);
 $color-accent-800: var(--accent-800);
 $color-accent-900: var(--accent-900);
+$color-accent-1000: var(--accent-1000);

@@ -3,7 +3,6 @@
     import Nav from "$lib/components/Nav.svelte";
     import Search from "$lib/components/Search.svelte";
     import Browse from "$lib/components/Browse.svelte";
-    import inkblot from "$lib/inkblot.svg";
     const navLinkList = [
         {
             href: "/rental-profile",
@@ -24,14 +23,12 @@
     ];
 </script>
 
-<div class="section container flex-fill flex-fill-parent">
-        <div class="paper">
-            <hgroup class="hgroup-home">
-                <h2 class="heading-3 flow text-center padding-block-2">Welcome to Rentrite!</h2>
-                <h3 class="heading-6 flow text-center">a review site</h3>
-            </hgroup>
-            <Search />
-            <Browse />
-            <!-- <Nav {navLinkList} /> -->
-        </div>
+<div class="section container flex-fill">
+    <hgroup class="hgroup-home">
+        <h2 class="heading-3 flow text-center padding-block-2">Welcome to Rentrite!</h2>
+        <h3 class="heading-6 flow text-center">a review site</h3>
+    </hgroup>
+    <Search />
+    <Browse />
+    <!-- <Nav {navLinkList} /> -->
 </div>
