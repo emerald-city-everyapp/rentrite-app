@@ -1,7 +1,13 @@
 @use "../abstracts" as *;
 
+.browse-container,
+.search-container {
+    // background-color: $color-primary-000;
+    border: 1px solid black;
+}
+
 .dbsearch {
-    background-color: $dbsearch-bg-color;
+    // background-color: $dbsearch-bg-color;
     display: grid;
     gap: $size-4;
     grid-template-columns: 1fr;

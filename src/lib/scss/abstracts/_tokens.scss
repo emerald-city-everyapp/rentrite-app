@@ -9,7 +9,7 @@ $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
 // Contextual
-$color-text-default: $color-accent-900;
+$color-text-default: $color-primary-900;
 $color-background-default: $color-primary-100;
 $color-text-interactive-default: $color-text-default;
 // $color-text-interactive-hover: $color-accent-500;
@@ -55,8 +55,9 @@ $flex-group-gap: $size-4;
 $grid-gap: $size-8;
 //COMPONENTS
 // header
-$site-header-color: $body-text-color;
-$site-header-background-color: $color-primary-300;
+$site-header-temporary: #020307;
+$site-header-color: $color-primary-1000;
+$site-header-background-color: $color-primary-400;
 $site-header-gap: $size-8;
 $site-header-gap-small: $size-2;
 $site-header-alignment: $size-8;
@@ -64,6 +65,7 @@ $site-header-jusitifcation-small-screens: space-evenly;
 $site-header-jusitifcation-large-screens: space-between;
 $site-header-padding: $size-8 0;
 $subgrid-border: $color-neutral-500;
+$nav-header-hover-focus: $color-accent-100;
 // footer
 $footer-background-color: $color-primary-300;
 $footer-text-color: $body-text-color;
@@ -116,9 +118,8 @@ $inputs-bg-color-focus: $color-primary-000;
 $labels-color: $body-text-color;
 $labels-ff: $font-family-accent;
 //-->placeholder text
-$form-placeholder-color: $color-text-interactive-default;
-$form-placeholder-font-weight: $font-weight-bold;
-$form-placeholder-font-family: $body-font-family;
+$placeholders-color: $color-primary-800;
+$placeholders-ff: $body-font-family;
 
 //UTILITY
 // headings
@@ -144,10 +145,10 @@ $button-padding: 1rem;
 // $button-border-radius (^ see mixin)
 
 //[data-type="primary"]
-$button-primary-background: $color-primary-325;
+$button-primary-background: $color-primary-300;
 $button-primary-color: $color-primary-900;
-$button-primary-background-hover:  $color-primary-700;
-$button-primary-color-hover: $color-accent-100;
+$button-primary-background-hover:  $color-accent-300;
+$button-primary-color-hover: $color-primary-1000;
 //[data-type="accent"]
 $button-accent-background: #fff;
 $button-accent-color: #fff;

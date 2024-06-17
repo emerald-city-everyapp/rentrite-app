@@ -19,23 +19,23 @@
             <p>The address field is required</p>
         {/if}
         <div class="input-cell">
-            <label for="address">address</label>
-            <input type="text1" name="address" id="textInput1" placeholder={address} value="{form?.address ?? ''}">
+            <label class="labels" for="address">address</label>
+            <input class="inputs" type="text1" name="address" id="textInput1" placeholder={address} value="{form?.address ?? ''}">
         </div>
         <div class="input-cell">
-            <label for="tags">tags</label>
-            <input type="text2" name="tags" id="textInput2" placeholder={tags}>
+            <label class="labels" for="tags">tags</label>
+            <input class="inputs" type="text2" name="tags" id="textInput2" placeholder={tags}>
         </div>
         <div class="input-cell">
-            <label for="picIds">picIds</label>
-            <input type="text3" name="picIds" id="textInput3" placeholder={picIds}>
+            <label class="labels" for="picIds">picIds</label>
+            <input class="inputs" type="text3" name="picIds" id="textInput3" placeholder={picIds}>
         </div>
         <div class="textarea-cell">
-            <label for="comments">comments</label>
-            <textarea name="comments" id="myTextArea1" placeholder={comments} />
+            <label class="labels" for="comments">comments</label>
+            <textarea class="inputs" name="comments" id="myTextArea1" placeholder={comments} />
         </div>
         <div class="button-cell">
-            <button type="submit" disabled={isDisabled}>submit</button>
+            <button class="buttons" type="submit" data-type="primary" disabled={isDisabled}>submit</button>
         </div>
     </form>
 </div>

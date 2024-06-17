@@ -3,7 +3,8 @@
 .heading-1 {
     @include heading(
         $font-size-900,
-        $color-accent-900
+        // $color-primary-1000
+        $site-header-temporary
     )
 }
 

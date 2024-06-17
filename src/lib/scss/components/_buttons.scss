@@ -1,6 +1,6 @@
 @use "../abstracts/" as *;
 
-.button {
+.buttons {
       background-color: $button-bg-color-default;
       border-radius: $border-radius-1;
       color: $button-color-default;
@@ -55,7 +55,9 @@
       }
       
 }
-
+// pretty combo:
+// $button-primary-background-hover:  $color-primary-700;
+// $button-primary-color-hover: $color-accent-100;
 
 //---Add in transparent border for high contrast mode---------------------
 

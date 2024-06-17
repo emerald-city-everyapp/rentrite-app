@@ -26,6 +26,6 @@
             <textarea name="textarea1" id="myTextArea1" placeholder={comments}></textarea>
         </div>
         <div class="button-cell">
-            <button type="submit" disabled={isDisabled}>submit</button>
+            <button class="buttons" type="submit" data-type="primary" disabled={isDisabled}>submit</button>
         </div>
     </form>

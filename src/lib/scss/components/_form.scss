@@ -2,10 +2,10 @@
 
 
 .new-rental-form {
-    background-color: #e9f0fc;
-    border: 1px solid $color-primary-600;
+    // background-color: #e9f0fc;
+    border: 1px solid black;
     border-radius: .2rem;
-    color: $color-primary-800;
+    // color: $color-primary-800;
     display: grid;
     gap: .5rem;
     padding: $size-4;
@@ -17,11 +17,7 @@
 
     & input,
     textarea {
-        background-color: #d6e2f7;
-        border-top: 1px solid #3e63c1;
-        border-left: 1px solid  #3e63c1;
-        border-right: 2px solid  #3e63c1;
-        border-bottom: 2px solid  #3e63c1;
+        // background-color: #d6e2f7;
         border-radius: .2rem;
         padding:.5rem;
         margin-inline: 1rem;
@@ -30,9 +26,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    @include mq(large) {
-        background-color: lemonchiffon;
-    }
+    // @include mq(large) {
+    //     background-color: lemonchiffon;
+    // }
 }
 
 textarea {
@@ -48,10 +44,10 @@ textarea {
 .textarea-cell {
     grid-column: 1 / -1;
 }
+
 ::placeholder {
-    color: #3b557da9;
-    font-weight: $form-placeholder-font-weight;
-    font-family: $form-placeholder-font-family;
+    color: $placeholders-color;
+    font-family: $placeholders-ff;
   }
 
 .inputs {
