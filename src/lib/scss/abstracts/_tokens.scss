@@ -85,9 +85,7 @@ $navigation-font-weight: $body-font-weight;
 
 // search
 $paper-bg-color: $color-accent-100;
-$search-bg-color: $color-primary-100;
-$search-label-ff: $font-family-accent;
-$search-button-ff: $font-family-accent;
+$dbsearch-bg-color: $color-primary-100;
 $search-grid-gap: 1rem;
 
 // $search-button-bg-color: $color-primary-200;
@@ -112,7 +110,8 @@ $logo-size-footer: $logo-size-default;
 
 // forms
 //-->inputs
-$inputs-bg-color: $color-primary-000;
+$inputs-bg-color: $color-accent-100;
+$inputs-bg-color-focus: $color-primary-000;
 //-->labels
 $labels-color: $body-text-color;
 $labels-ff: $font-family-accent;

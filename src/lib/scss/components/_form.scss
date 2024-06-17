@@ -55,13 +55,14 @@ textarea {
   }
 
 .inputs {
+    background-color: $inputs-bg-color;
     border-radius: $border-radius-1;
     color: $body-text-color;
 }
 .inputs:focus {
-    background-color: $inputs-bg-color;
+    background-color: $inputs-bg-color-focus;
 }
 .labels {
     color: $body-text-color;
-    font-family: $search-label-ff;
+    font-family: $labels-ff;
 }
