@@ -14,26 +14,58 @@ $-clr-black: hsl(0 0% 0%);
 $-clr-skyblue-800: hsl(216 75% 17.5%);
 
 
-$-clr-pink-100: hsl(344, 85%, 97%);
-$-clr-magenta-200: hsl(326, 37%, 71%);
-$-clr-teal-300: hsl(189, 50%, 70%);
-$-clr-magenta-400: hsl(321, 33%, 60%);
-$-clr-magenta-500: hsl(319, 70%, 43%);
-$-clr-magenta-600: hsl(314, 63%, 40%);
-$-clr-teal-700: hsl(189, 50%, 40%);
-$-clr-teal-800: hsl(189, 100%, 31%);
-$-clr-magenta-900: hsl(316, 18%, 12%);
+// $-clr-magenta-200: hsl(326, 37%, 71%);
+$-clr-magenta-400: #d09ab9;
+// $-clr-teal-300: hsl(189, 50%, 70%);
+$-clr-teal-200: #8ccdd9;
+// $-clr-magenta-400: hsl(321, 33%, 60%);
+$-clr-magenta-500: #bb77a3;
+// $-clr-magenta-500: hsl(319, 70%, 43%);
+$-clr-magenta-900: #ba218a;
+// $-clr-teal-700: hsl(189, 50%, 40%);
+$-clr-teal-700: #338a99;
+// $-clr-teal-800: hsl(189, 100%, 31%);
+$-clr-teal-800: #00869e;
+// $-clr-magenta-600: hsl(314, 63%, 40%);
+$-clr-magenta-1000: #a62688;
 
-$-clr-lavendar-100: hsl(265, 11%, 78%);
-$-clr-silver-200: hsl(244, 11%, 71%);
-$-clr-lavendar-300: hsl(267, 10%, 60%);
-$-clr-silver-325: hsl(224, 15%, 70%);//a6acbd kinda
-$-clr-lavendar-400: hsl(266, 10%, 50%);
-$-clr-lavendar-500: hsl(267, 10%, 40%);
-$-clr-lavendar-600: hsl(264, 5%, 40%);
-$-clr-silver-700: hsl(240, 6%, 32%); //4d4d56 (4d4d57)
-$-clr-blueblack-900: hsl(235, 18%, 12%);
+//primary
+// $-clr-pink-100: hsl(344, 85%, 97%);
+$-clr-pink-000: #fef1f4;
 
+// $-clr-lavendar-100: hsl(265, 11%, 78%);
+$-clr-lavendar-100: #c6c1cd;
+
+// $-clr-silver-200: hsl(244, 11%, 71%);
+$-clr-silver-200: #aeadbd;
+
+//
+$-clr-silver-300: #a7adbe;
+
+// $-clr-lavendar-300: hsl(267, 10%, 60%);
+$-clr-lavendar-400: #988fa3;
+
+// $-clr-lavendar-400: hsl(266, 10%, 50%);
+$-clr-lavendar-500: #7e738c;
+
+// $-clr-lavendar-600: hsl(264, 5%, 40%);
+$-clr-lavendar-600: #65616b;
+
+// $-clr-lavendar-500: hsl(267, 10%, 40%);
+$-clr-lavendar-700: #655c70;
+
+// $-clr-silver-700: hsl(240, 6%, 32%); //4d4d56 (4d4d57)
+$-clr-silver-800: #4d4d56; //4d4d56 (4d4d57)
+
+// $-clr-magenta-900: hsl(316, 18%, 12%);
+$-clr-magenta-900: #241921;
+
+// $-clr-blueblack-900: hsl(235, 18%, 12%);
+$-clr-blueblack-1000: #191a24;
+
+//what's this one for??
+// $-clr-silver-325: hsl(224, 15%, 70%);//a6acbd kinda
+$-clr-silver-325: #020307;//a6acbd kinda ???????????/???
 // --themes--------------------------------------------
 $light: (
   "neutral": (
@@ -61,16 +93,17 @@ $light: (
     "900": $-clr-magenta-900,
   ),
   "primary": (
+    "000": $-clr-pink-000,
     "100": $-clr-lavendar-100,
     "200": $-clr-silver-200,
-    "300": $-clr-lavendar-300,
-    "325": $-clr-silver-325,
+    "300": $-clr-silver-300,
     "400": $-clr-lavendar-400,
     "500": $-clr-lavendar-500,
     "600": $-clr-lavendar-600,
-    "700": $-clr-silver-700,
-    "800": $-clr-silver-700,
-    "900": $-clr-blueblack-900,
+    "700": $-clr-lavendar-700,
+    "800": $-clr-silver-800,
+    "900": $-clr-magenta-900,
+    "1000": $-clr-blueblack-900,
   ),
 );
 
@@ -100,16 +133,17 @@ $dark: (
     "900": $-clr-pink-100,
   ),
   "primary": (
+    "000": $-clr-blueblack-900,
     "100": $-clr-magenta-900,
-    "200": $-clr-silver-700,
-    "300": $-clr-lavendar-500,
-    "325": $-clr-silver-325,
+    "200": $-clr-silver-800,
+    "300": $-clr-lavendar-700,
     "400": $-clr-lavendar-600,
-    "500": $-clr-blueblack-900,
+    "500": $-clr-lavendar-500,
     "600": $-clr-lavendar-400,
-    "700": $-clr-lavendar-300,
+    "700": $-clr-silver-300,
     "800": $-clr-silver-200,
     "900": $-clr-lavendar-100,
+    "1000": $-clr-pink-000,
   ),
 );
 
