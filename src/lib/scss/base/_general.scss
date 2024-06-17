@@ -1,5 +1,9 @@
 @use "../abstracts/" as *;
 
+html {
+  color-scheme: light dark;
+}
+
 body {
   color: $body-text-color;
   background-color: $body-background-color;

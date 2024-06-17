@@ -12,20 +12,32 @@ $-clr-gray-900: hsl(0 0% 7.5%);
 $-clr-black: hsl(0 0% 0%);
 
 $-clr-skyblue-800: hsl(216 75% 17.5%);
+//accent
+$-clr-teal-000: #99f0ff;
+$-clr-indigo-100: #b2c4f4;
 
+// $-clr-teal-300: hsl(189, 50%, 70%);
+$-clr-teal-200: #8ccdd9;
+
+$-clr-violet-300: #d2b2f4;
 
 // $-clr-magenta-200: hsl(326, 37%, 71%);
 $-clr-magenta-400: #d09ab9;
-// $-clr-teal-300: hsl(189, 50%, 70%);
-$-clr-teal-200: #8ccdd9;
+
 // $-clr-magenta-400: hsl(321, 33%, 60%);
 $-clr-magenta-500: #bb77a3;
-// $-clr-magenta-500: hsl(319, 70%, 43%);
-$-clr-magenta-900: #ba218a;
+
+$-clr-crimson-600: #f74553;
+
 // $-clr-teal-700: hsl(189, 50%, 40%);
 $-clr-teal-700: #338a99;
+
 // $-clr-teal-800: hsl(189, 100%, 31%);
 $-clr-teal-800: #00869e;
+
+// $-clr-magenta-500: hsl(319, 70%, 43%);
+$-clr-magenta-900: #ba218a;
+
 // $-clr-magenta-600: hsl(314, 63%, 40%);
 $-clr-magenta-1000: #a62688;
 
@@ -82,15 +94,17 @@ $light: (
     "1000": $-clr-black,
   ),
   "accent": (
-    "100": $-clr-pink-100,
-    "200": $-clr-magenta-200,
-    "300": $-clr-teal-300,
+    "000": $-clr-teal-000,
+    "100": $-clr-indigo-100,
+    "200": $-clr-teal-200,
+    "300": $-clr-violet-300,
     "400": $-clr-magenta-400,
     "500": $-clr-magenta-500,
-    "600": $-clr-magenta-600,
+    "600": $-clr-crimson-600,
     "700": $-clr-teal-700,
     "800": $-clr-teal-800,
     "900": $-clr-magenta-900,
+    "1000": $-clr-magenta-1000,
   ),
   "primary": (
     "000": $-clr-pink-000,
@@ -103,7 +117,7 @@ $light: (
     "700": $-clr-lavendar-700,
     "800": $-clr-silver-800,
     "900": $-clr-magenta-900,
-    "1000": $-clr-blueblack-900,
+    "1000": $-clr-blueblack-1000,
   ),
 );
 
@@ -120,20 +134,22 @@ $dark: (
     "800": $-clr-gray-200,
     "900": $-clr-gray-100,
     "1000": $-clr-white,
-  ),
+    ),
   "accent": (
-    "100": $-clr-silver-700,
+    "000": $-clr-magenta-1000,
+    "100": $-clr-magenta-900,
     "200": $-clr-teal-800,
     "300": $-clr-teal-700,
-    "400": $-clr-magenta-600,
+    "400": $-clr-crimson-600,
     "500": $-clr-magenta-500,
     "600": $-clr-magenta-400,
-    "700": $-clr-teal-300,
-    "800": $-clr-magenta-200,
-    "900": $-clr-pink-100,
+    "700": $-clr-violet-300,
+    "800": $-clr-teal-200,
+    "900": $-clr-indigo-100,
+    "1000": $-clr-teal-000,
   ),
   "primary": (
-    "000": $-clr-blueblack-900,
+    "000": $-clr-blueblack-1000,
     "100": $-clr-magenta-900,
     "200": $-clr-silver-800,
     "300": $-clr-lavendar-700,
