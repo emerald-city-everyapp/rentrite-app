@@ -1,23 +1,24 @@
 import { fail, error } from '@sveltejs/kit';
-import { baseUrl, cleaner } from '$lib/utils.js';
+import { baseUrl, clean } from '$lib/utils.js';
 
 const url = `${baseUrl}rentalprofile`;
+// an action's return value is made available through the form prop.
+//this means your load functions will run after the action completes
 
 export async function load() { //do we even need to "GET" anything?
     console.log("url: ", url);
 }
-
+//actions always use POST requests, since GET requests should never have side-effects!
 export const actions = {
     default: async ({fetch, request}) => {
         const data = await request.formData();
-        console.log("formData: ", data);
-        const formattedData = cleaner(data);
-        console.log("formattedData: ", formattedData)
+        const formattedData = clean(data);
         const jsonData = JSON.stringify(formattedData);
-        // if(!data.address) {
-        //     return fail(400, {address, missing: true}); //"fail" allows you to return an HTTP status code for validation errors
-        // }
-        console.log("jsonData: ", jsonData)
+        let { address } = formattedData;
+        if(!address) {
+            return fail(400, {address, missing: true}); 
+            //"fail" allows you to return an HTTP status code for validation errors
+        }
         try {
             const response = await fetch(url, {
                 method: "POST",
@@ -28,17 +29,16 @@ export const actions = {
                 },
                 body: jsonData
             });
-            console.log("response: ", response);
+            const result = await response.json();
             if(!response.ok) {
                 error(400, "bad request");
             } 
-            return response;
+            console.log("result: ", result);
+            return result;
         } catch(err) {
             console.log("err: ", err);
             console.error("There is a problem with your POST request");
             throw err;
         }
-        //create new entry - new rental profile
     },
-
 }

@@ -1,7 +1,8 @@
 <script>
     import NewRentalForm from "$lib/components/NewRentalForm.svelte";
     import { enhance } from "$app/forms";
-    export let form;
+    import { browser } from "$app/environment";
+    export let form; //an action's return value is made available through the form prop
     let address = "address"; //address
     let tags = "tags"; //tags
     let picIds = "picIds"; //picIds
@@ -20,7 +21,7 @@
         {/if}
         <div class="input-cell">
             <label class="labels" for="address">address</label>
-            <input class="inputs" type="text1" name="address" id="textInput1" placeholder={address} value="{form?.address ?? ''}">
+            <input class="inputs" type="text1" name="address" id="textInput1" placeholder={address} value="{form?.address ?? ''}" required>
         </div>
         <div class="input-cell">
             <label class="labels" for="tags">tags</label>
