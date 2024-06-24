@@ -5,8 +5,11 @@ const url = `${baseUrl}rentalprofile`;
 // an action's return value is made available through the form prop.
 //this means your load functions will run after the action completes
 
-export async function load() { //do we even need to "GET" anything?
-    console.log("url: ", url);
+export async function load({locals}) { //do we even need to "GET" anything?
+    console.log("locals: ", locals);
+	return {
+        serverMessage: 'hello from server load function'
+	};
 }
 //actions always use POST requests, since GET requests should never have side-effects!
 export const actions = {
